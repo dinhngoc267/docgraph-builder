@@ -1,0 +1,3 @@
+Title:Epidemiology and viral etiologies of Severe Acute Respiratory Infections (SARI) in the Northern Vietnam
+ Authors: ['Hien, Nguyen Tran', 'Thi Thuong, Nguyen', 'Thiem, Vu Dinh', 'Minh, Nguyen Quang', 'Duong, Tran Nhu']
+ Abstract

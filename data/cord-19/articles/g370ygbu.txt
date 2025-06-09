@@ -1,0 +1,3 @@
+Title:Biodefense versus bioterrorism
+ Authors: ['Petsko, Gregory A']
+ AbstractGenomics was essential for identifying the source of the deadly anthrax strain released after the September 11 terrorist attacks in the US. The same research that is needed to combat low-probability bioterror attacks is needed to combat high-probability natural infectious agents.

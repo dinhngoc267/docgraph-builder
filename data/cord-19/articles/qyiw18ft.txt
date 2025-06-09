@@ -1,0 +1,3 @@
+Title:Estimating SARS Incubation Period
+ Authors: ['Wong, Tze-wai', 'Tam, Wilson']
+ Abstract

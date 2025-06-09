@@ -1,0 +1,3 @@
+Title:Noninvasive ventilation in acute respiratory failure due to H1N1 influenza
+ Authors: ['Mohapatra, Prasanta R.', 'Dutt, Naveen', 'Khanduri, Sushant', 'Mishra, Baijayantimala', 'Janmeja, Ashok K.']
+ AbstractWe present a case of severe H1N1 influenza with hypoxemic acute respiratory failure necessitating mechanical ventilation benefited from noninvasive positive pressure ventilation (NIPPV). The NIPPV may be of great use in treating patients with H1N1-related acute respiratory distress syndrome in a resource poor setting or when invasive ventilator is unavailable.
