@@ -7,7 +7,7 @@ from src.models import AgentName
 from src.agents.prompts import SCHEMA_DESIGN_PROMPT
 
 # from ._agent_registry import AgentRegistry
-from src.agents._base import ollama_model
+from src.agents._base import instruct_model
 
 
 def extract_json_from_markdown(markdown_string):
@@ -34,7 +34,7 @@ def extract_json_from_markdown(markdown_string):
 def create_schema_design_agent() -> Agent:
     agent = Agent(
         name=AgentName.schema_design_agent.value,
-        model=ollama_model,
+        model=instruct_model,
         instructions=SCHEMA_DESIGN_PROMPT,
         result_type=str,
         retries=5,

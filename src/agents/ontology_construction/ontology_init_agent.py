@@ -4,7 +4,7 @@ from src.models import AgentName, Ontology
 from src.agents.prompts import ONTOLOGY_INIT_PROMPT
 
 # from ._agent_registry import AgentRegistry
-from src.agents._base import ollama_model
+from src.agents._base import instruct_model
 from src.agents.tools.search import search
 from src.agents.tools.select_sample_data import retrieve_data
 
@@ -13,7 +13,7 @@ from src.agents.tools.select_sample_data import retrieve_data
 def create_ontology_init_agent() -> Agent:
     agent = Agent(
         name=AgentName.ontology_init_agent.value,
-        model=ollama_model,
+        model=instruct_model,
         result_type=Ontology,
         instructions=ONTOLOGY_INIT_PROMPT,
         tools=[
