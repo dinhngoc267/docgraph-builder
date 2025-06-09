@@ -1,1 +1,2 @@
-./notebook
+__pycache__/
+notebook/
