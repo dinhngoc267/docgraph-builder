@@ -234,7 +234,7 @@ class InformationExtractionNode(BaseNode):
 
     async def run(self, ctx: GraphRunContext) -> End:
 
-        with open("/home/ju/PycharmProjects/automated-docgraph-construction/data/cord-19/articles/zq387qo8.txt",
+        with open("./data/cord-19/articles/zq387qo8.txt",
                   "r") as f:
             sample_data = f.read()
 
