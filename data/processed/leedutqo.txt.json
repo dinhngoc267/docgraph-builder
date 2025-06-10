@@ -1,0 +1,128 @@
+{
+  "title": "Human Bocaviruses Are Not Significantly Associated with Gastroenteritis: Results of Retesting Archive DNA from a Case Control Study in the UK",
+  "authors": [
+    "Nawaz, Sameena",
+    "Allen, David J.",
+    "Aladin, Farah",
+    "Gallimore, Christopher",
+    "Iturriza-G\u00f3mara, Miren"
+  ],
+  "units": [
+    {
+      "text": "Gastroenteritis is a common illness causing considerable morbidity and mortality worldwide. Despite improvements in detection methods, a significant diagnostic gap still remains. Human bocavirus (HBoV)s, which are associated with respiratory infections, have also frequently been detected in stool samples in cases of gastroenteritis, and a tentative association between HBoVs, and in particular type-2 HBoVs, and gastroenteritis has previously been made. The aim of this study was to determine the role of HBoVs in gastroenteritis, using archived DNA samples from the case-control Infectious Intestinal Disease Study (IID). DNA extracted from stool samples from 2,256 cases and 2,124 controls were tested for the presence of HBoV DNA. All samples were screened in a real time PCR pan-HBoV assay, and positive samples were then tested in genotype 1 to 3-specific assays. HBoV was detected in 7.4% but no significantly different prevalence was observed between cases and controls. In the genotype-specific assays 106 of the 324 HBoV-positive samples were genotyped, with HBoV-1 predominantly found in controls whilst HBoV-2 was more frequently associated with cases of gastroenteritis (p<0.01). A significant proportion of HBoV positives could not be typed using the type specific assays, 67% of the total positives, and this was most likely due to low viral loads being present in the samples. However, the distribution of the untyped HBoV strains was no different between cases and controls. In conclusion, HBoVs, including HBoV-2 do not appear to be a significant cause of gastroenteritis in the UK population.",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "Gastroenteritis"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Human bocavirus"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "HBoV"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "Infectious Intestinal Disease Study"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "IID"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "gastroenteritis"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "HBoV-2"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "UK"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "HBoV-2",
+          "tail": "gastroenteritis",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "HBoV",
+          "tail": "Human bocavirus",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "Infectious Intestinal Disease Study",
+          "tail": "IID",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "HBoV",
+          "tail": "gastroenteritis",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "Infectious Intestinal Disease Study",
+          "tail": "UK",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "gastroenteritis",
+          "tail": "HBoV",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "HBoV-2",
+          "tail": "HBoV",
+          "relation_type": "IS_TYPE_OF"
+        }
+      ]
+    },
+    {
+      "text": "In conclusion, HBoVs, including HBoV-2 do not appear to be a significant cause of gastroenteritis in the UK population.",
+      "section_title": "In conclusion",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "HBoVs"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "HBoV-2"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "gastroenteritis"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "UK"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "HBoVs",
+          "tail": "gastroenteritis",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "HBoV-2",
+          "tail": "HBoVs",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "gastroenteritis",
+          "tail": "UK",
+          "relation_type": "OCCURS_IN"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": null
+}

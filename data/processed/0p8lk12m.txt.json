@@ -1,0 +1,235 @@
+{
+  "title": "Gene Expression Profiling in Cells with Enhanced \u03b3-Secretase Activity",
+  "authors": [
+    "Magold, Alexandra I.",
+    "Cacquevel, Matthias",
+    "Fraering, Patrick C."
+  ],
+  "units": [
+    {
+      "text": "Processing by \u03b3-secretase of many type-I membrane protein substrates triggers signaling cascades by releasing intracellular domains (ICDs) that, following nuclear translocation, modulate the transcription of different genes regulating a diverse array of cellular and biological processes. Because the list of \u03b3-secretase substrates is growing quickly and this enzyme is a cancer and Alzheimer's disease therapeutic target, the mapping of \u03b3-secretase activity susceptible gene transcription is important for sharpening our view of specific affected genes, molecular functions and biological pathways.",
+      "section_title": "BACKGROUND",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "\u03b3-secretase"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "type-I membrane protein substrates"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "intracellular domains (ICDs)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "nuclear translocation"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "transcription"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "cancer"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Alzheimer's disease"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "\u03b3-secretase",
+          "tail": "type-I membrane protein substrates",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "intracellular domains (ICDs)",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "intracellular domains (ICDs)",
+          "tail": "nuclear translocation",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "nuclear translocation",
+          "tail": "transcription",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "transcription",
+          "tail": "cancer",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "transcription",
+          "tail": "Alzheimer's disease",
+          "relation_type": "IS_RELATED_TO"
+        }
+      ]
+    },
+    {
+      "text": "To identify genes and molecular functions transcriptionally affected by \u03b3-secretase activity, the cellular transcriptomes of Chinese hamster ovary (CHO) cells with enhanced and inhibited \u03b3-secretase activity were analyzed and compared by cDNA microarray. The functional clustering by FatiGO of the 1,981 identified genes revealed over- and under-represented groups with multiple activities and functions. Single genes with the most pronounced transcriptional susceptibility to \u03b3-secretase activity were evaluated by real-time PCR. Among the 21 validated genes, the strikingly decreased transcription of PTPRG and AMN1 and increased transcription of UPP1 potentially support data on cell cycle disturbances relevant to cancer, stem cell and neurodegenerative diseases' research. The mapping of interactions of proteins encoded by the validated genes exclusively relied on evidence-based data and revealed broad effects on Wnt pathway members, including WNT3A and DVL3. Intriguingly, the transcription of TERA, a gene of unknown function, is affected by \u03b3-secretase activity and was significantly altered in the analyzed human Alzheimer's disease brain cortices.",
+      "section_title": "METHODOLOGY/PRINCIPAL FINDINGS",
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "Alzheimer's disease"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "\u03b3-secretase"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "CHO cells"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "cDNA microarray"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "FatiGO"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "PTPRG"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "AMN1"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "UPP1"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Wnt pathway"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "WNT3A"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "DVL3"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "TERA"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "cell cycle disturbances"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "cancer"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "stem cell"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "neurodegenerative diseases"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "human Alzheimer's disease brain cortices"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "\u03b3-secretase",
+          "tail": "CHO cells",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "cDNA microarray",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "FatiGO",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "PTPRG",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "AMN1",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "UPP1",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "cell cycle disturbances",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "Wnt pathway",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "WNT3A",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "DVL3",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "TERA",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "\u03b3-secretase",
+          "tail": "human Alzheimer's disease brain cortices",
+          "relation_type": "INVOLVES"
+        }
+      ]
+    },
+    {
+      "text": "Investigating the effects of \u03b3-secretase activity on gene transcription has revealed several affected clusters of molecular functions and, more specifically, 21 genes that hold significant potential for a better understanding of the biology of \u03b3-secretase and its roles in cancer and Alzheimer's disease pathology.",
+      "section_title": "CONCLUSIONS/SIGNIFICANCE",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "\u03b3-secretase"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Alzheimer's disease"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "\u03b3-secretase",
+          "tail": "Alzheimer's disease",
+          "relation_type": "IS_RELATED_TO"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

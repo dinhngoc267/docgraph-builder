@@ -1,0 +1,107 @@
+{
+  "title": "HIV-related restrictions on entry, residence and stay in the WHO European Region: a survey",
+  "authors": [
+    "Lazarus, Jeffrey V",
+    "Curth, Nadja",
+    "Weait, Matthew",
+    "Matic, Srdan"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "ORGANIZATION",
+          "text": "World Health Organization"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HIV"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "WHO"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "United States Bureau of Consular Affairs"
+        },
+        {
+          "type_": "DATE",
+          "text": "1987"
+        },
+        {
+          "type_": "DATE",
+          "text": "51 countries"
+        },
+        {
+          "type_": "DATE",
+          "text": "11 countries"
+        },
+        {
+          "type_": "DATE",
+          "text": "32%"
+        },
+        {
+          "type_": "DATE",
+          "text": "non-European Union"
+        },
+        {
+          "type_": "PERSON",
+          "text": "foreigners living with HIV"
+        },
+        {
+          "type_": "PERSON",
+          "text": "HIV-positive foreigner"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "World Health Organization",
+          "tail": "HIV",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "WHO",
+          "tail": "HIV",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "United States Bureau of Consular Affairs",
+          "tail": "51 countries",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "51 countries",
+          "tail": "foreigners living with HIV",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "11 countries",
+          "tail": "foreigners living with HIV",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "32%",
+          "tail": "51 countries",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HIV",
+          "tail": "foreigners living with HIV",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HIV-positive foreigner",
+          "tail": "non-European Union",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "BACKGROUND: Back in 1987, the World Health Organization (WHO) concluded that the screening of international travellers was an ineffective way to prevent the spread of HIV. However, some countries still restrict the entrance and/or residency of foreigners with an HIV infection. HIV-related travel restrictions have serious implications for individual and public health, and violate internationally recognized human rights. In this study, we reviewed the current situation regarding HIV-related travel restrictions in the 53 countries of the WHO European Region.\n\nMETHODS: We retrieved the country-specific information chiefly from the Global Database on HIV Related Travel Restrictions at hivtravel.org. We simplified and standardized the database information to enable us to create an overview and compare countries. Where data was outdated, unclear or contradictory, we contacted WHO HIV focal points in the countries or appropriate non-governmental organizations. The United States Bureau of Consular Affairs website was also used to confirm and complement these data.\n\nRESULTS: Our review revealed that there are no entry restrictions for people living with HIV in 51 countries in the WHO European Region. In 11 countries, foreigners living with HIV applying for long-term stays will not be granted a visa. These countries are: Andorra, Armenia, Cyprus (denies access for non-European Union citizens), Hungary, Kazakhstan, Moldova, the Russian Federation, Tajikistan, Turkmenistan, Ukraine and Uzbekistan. In Uzbekistan, an HIV-positive foreigner cannot even enter the country, and in Georgia, we were not able to determine whether there were any HIV-related travel restrictions due to a lack of information.\n\nCONCLUSIONS: In 32% of the countries in the European Region, either there are some kind of HIV-related travel restrictions or we were unable to determine if such restrictions are in force. Most of these countries defend restrictions as being justified by public health concerns. However, there is no evidence that denying HIV-positive foreigners access to a country is effective in protecting public health. Governments should revise legislation on HIV-related travel restrictions. In the meantime, a joint effort is needed to draw attention to the continuing discrimination and stigmatization of people living with HIV that takes place in those European Region countries where such laws and policies are still in force."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

@@ -16,7 +16,6 @@ def create_human_preference_agent() -> Agent:
         instructions=HUMAN_PREFERENCE_PROMPT,
         result_type=HumanReview,
         retries=5,
-        model_settings={"temperature": 0}
     )
 
     return agent

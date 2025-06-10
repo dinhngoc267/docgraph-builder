@@ -8,14 +8,19 @@ from enum import Enum
 
 def build_dynamic_relation_model(mention_strings: List[str],
                                  relation_types: Any) -> Type[BaseModel]:
-
-    mention_literals = Literal[tuple(mention_strings)]
+    if mention_strings:
+        mention_literals = Literal[tuple(mention_strings)]
+        head_type = mention_literals
+        tail_type = mention_literals
+    else:
+        head_type = Optional[str]
+        tail_type = Optional[str]
 
     DynamicRelation = create_model(
         "DynamicRelation",
-        head=(mention_literals, Field(..., description="The mentioned entity (head) must match upper/lower case.")),
-        tail=(mention_literals, Field(..., description="The mentioned entity (tail) must match upper/lower case.")),
-        relation_type=(relation_types, Field(..., description="A brief description of the relationship between head and tail entities.")),
+        head=(head_type, Field(None, description="Mentioned entity (head).")),
+        tail=(tail_type, Field(None, description="Mentioned entity (tail).")),
+        relation_type=(relation_types, Field(..., description="Description of the relation between head and tail.")),
     )
 
     return DynamicRelation

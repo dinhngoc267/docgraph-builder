@@ -12,7 +12,7 @@ def create_doc_distiller_agent(output_model, schema) -> Agent:
     agent = Agent(
         name=AgentName.doc_distiller_agent.value,
         model=instruct_model,
-        system_prompt=DOC_DISTILLER_PROMPT.format(schema=schema),
+        instructions=DOC_DISTILLER_PROMPT,
         result_type=output_model,
         retries=5,
     )

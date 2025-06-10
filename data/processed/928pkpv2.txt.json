@@ -1,0 +1,116 @@
+{
+  "title": "Rift Valley Fever Virus NSs Protein Promotes Post-Transcriptional Downregulation of Protein Kinase PKR and Inhibits eIF2\u03b1 Phosphorylation",
+  "authors": [
+    "Ikegami, Tetsuro",
+    "Narayanan, Krishna",
+    "Won, Sungyong",
+    "Kamitani, Wataru",
+    "Peters, C. J.",
+    "Makino, Shinji"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "RVFV NSs protein"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "PKR"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "eIF2\u03b1"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "actinomycin D"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "\u03b1-amanitin"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Rift Valley fever"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "severe hemorrhagic illness"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "fever"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "high rates of abortions"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "RVFV NSs protein",
+          "tail": "severe hemorrhagic illness",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "RVFV NSs protein",
+          "tail": "fever",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "RVFV NSs protein",
+          "tail": "high rates of abortions",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "actinomycin D",
+          "tail": "RVFV NSs protein",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "\u03b1-amanitin",
+          "tail": "RVFV NSs protein",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "PKR",
+          "tail": "eIF2\u03b1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "RVFV NSs protein",
+          "tail": "PKR",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "RVFV NSs protein",
+          "tail": "Rift Valley fever",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Rift Valley fever",
+          "tail": "severe hemorrhagic illness",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Rift Valley fever",
+          "tail": "fever",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Rift Valley fever",
+          "tail": "high rates of abortions",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "Rift Valley fever virus (RVFV) (genus Phlebovirus, family Bunyaviridae) is a negative-stranded RNA virus with a tripartite genome. RVFV is transmitted by mosquitoes and causes fever and severe hemorrhagic illness among humans, and fever and high rates of abortions in livestock. A nonstructural RVFV NSs protein inhibits the transcription of host mRNAs, including interferon-\u03b2 mRNA, and is a major virulence factor. The present study explored a novel function of the RVFV NSs protein by testing the replication of RVFV lacking the NSs gene in the presence of actinomycin D (ActD) or \u03b1-amanitin, both of which served as a surrogate of the host mRNA synthesis suppression function of the NSs. In the presence of the host-transcriptional inhibitors, the replication of RVFV lacking the NSs protein, but not that carrying NSs, induced double-stranded RNA-dependent protein kinase (PKR)\u2013mediated eukaryotic initiation factor (eIF)2\u03b1 phosphorylation, leading to the suppression of host and viral protein translation. RVFV NSs promoted post-transcriptional downregulation of PKR early in the course of the infection and suppressed the phosphorylated eIF2\u03b1 accumulation. These data suggested that a combination of RVFV replication and NSs-induced host transcriptional suppression induces PKR-mediated eIF2\u03b1 phosphorylation, while the NSs facilitates efficient viral translation by downregulating PKR and inhibiting PKR-mediated eIF2\u03b1 phosphorylation. Thus, the two distinct functions of the NSs, i.e., the suppression of host transcription, including that of type I interferon mRNAs, and the downregulation of PKR, work together to prevent host innate antiviral functions, allowing efficient replication and survival of RVFV in infected mammalian hosts."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

@@ -1,5 +1,3 @@
 Title:Sequence Analysis of Feline Coronaviruses and the Circulating Virulent/Avirulent Theory
- Authors: ['Chang, Hui-Wen', 'Egberink, Herman F.', 'Rottier, Peter J.M.']
- Abstract
-: segregation. Hence, our data do not confirm the diagnostic potential of the M protein sequence nor do they support the suggested role of the membrane protein in FIP pathogenesis (9) .
-Informative as it may be, comparative sequence analysis will eventually not be sufficient to answer the FECV/FIPV question. What will be needed is a reverse genetics system to generate and manipulate the FCoV genome as well as a cell culture system to propagate the viruses, both of which have thus far not been achieved. 
+Authors: ['Chang, Hui-Wen', 'Egberink, Herman F.', 'Rottier, Peter J.M.']
+Content: 

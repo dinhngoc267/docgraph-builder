@@ -1,0 +1,66 @@
+{
+  "title": "Polyomaviruses KI and WU in Immunocompromised Patients with Respiratory Disease",
+  "authors": [
+    "Mourez, Thomas",
+    "Bergeron, Anne",
+    "Ribaud, Patricia",
+    "Scieux, Catherine",
+    "Peffault de Latour, R\u00e9gis",
+    "Tazi, Abdellatif",
+    "Soci\u00e9, G\u00e9rard",
+    "Simon, Fran\u00e7ois",
+    "LeGoff, J\u00e9r\u00f4me"
+  ],
+  "units": [
+    {
+      "text": "Polyomaviruses KI (KIPyV) and WU (WUPyV) were recently identified, mainly in respiratory specimens from children. Among 200 patients with respiratory disorders admitted to Saint Louis Hospital, Paris, France, KIPyV was detected in 8% and WUPyV in 1%. KIPyV was significantly more frequent among human stem cell transplant patients (17.8% vs. 5.1%; p = 0.01).",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Polyomaviruses KI (KIPyV)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "WU (WUPyV)"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "Saint Louis Hospital"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "Paris"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "France"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Polyomaviruses KI (KIPyV)",
+          "tail": "Saint Louis Hospital",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "WU (WUPyV)",
+          "tail": "Saint Louis Hospital",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "Saint Louis Hospital",
+          "tail": "Paris",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "Paris",
+          "tail": "France",
+          "relation_type": "IS_LOCATED_IN"
+        }
+      ]
+    }
+  ],
+  "source": "Saint Louis Hospital, Paris, France",
+  "doc_type": "research_article"
+}

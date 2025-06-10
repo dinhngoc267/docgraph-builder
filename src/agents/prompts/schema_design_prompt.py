@@ -53,11 +53,12 @@ You must output:
 3. **Mention**
    - Represents an entity mention in the text.
    - Must include exactly and only two attributes:
-     - `_type`: `EntityType` — The type of the entity.
+     - `type_`: `EntityType` — The type of the entity.
      - `text`: `str` — The surface form of the mention.
      
 4. **RelationType**
    - An **enum** defined all possible relationship between entity types.
+   - Note: Try to think all possible relationship types between predefined entity types to adapt data domain and purpose of user in constructing knowledge graph.
     
     
 5. **EntityType**
@@ -76,7 +77,6 @@ You must output:
 
 - Use **clear pseudocode** with indentation and Python-style typing.
 - Provide a brief **rationale/explanation** for your schema design.
-- Use `/no_think` mode. 
 
 ### So we should have:
 
@@ -88,7 +88,7 @@ class EntityType(Enum):
     ...
 
 class Mention(BaseModel):
-   _type: EntityType
+   type_: EntityType
    text: str(description=...)
    
 class DocUnit(BaseModel):

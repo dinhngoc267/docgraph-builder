@@ -1,0 +1,114 @@
+{
+  "title": "DNA Vaccines against Protozoan Parasites: Advances and Challenges",
+  "authors": [
+    "Dumonteil, Eric"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "leishmaniasis"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Chagas disease"
+        },
+        {
+          "type_": "METHOD",
+          "text": "DNA vaccines"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "DNA vaccines",
+          "tail": "leishmaniasis",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "DNA vaccines",
+          "tail": "Chagas disease",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "leishmaniasis",
+          "tail": "Chagas disease",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "Over the past 15 years, DNA vaccines have gone from a scientific curiosity to one of the most dynamic research field and may offer new alternatives for the control of parasitic diseases such as leishmaniasis and Chagas disease. We review here some of the advances and challenges for the development of DNA vaccines against these diseases."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "DNA vaccines"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "protozoan parasites"
+        },
+        {
+          "type_": "METHOD",
+          "text": "veterinary or human vaccines"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "DNA vaccines",
+          "tail": "protozoan parasites",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "DNA vaccines",
+          "tail": "veterinary or human vaccines",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "2",
+      "text": "Many studies have validated the concept of using DNA vaccines for both protection and therapy against these protozoan parasites in a variety of mouse models. The challenge now is to translate what has been achieved in these models into veterinary or human vaccines of comparable efficacy."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "genome-mining"
+        },
+        {
+          "type_": "METHOD",
+          "text": "new antigen discovery strategies"
+        },
+        {
+          "type_": "METHOD",
+          "text": "rational search"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "genome-mining",
+          "tail": "new antigen discovery strategies",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "new antigen discovery strategies",
+          "tail": "rational search",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "genome-mining",
+          "tail": "rational search",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "3",
+      "text": "Also, genome-mining and new antigen discovery strategies may provide new tools for a more rational search of novel vaccine candidates."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

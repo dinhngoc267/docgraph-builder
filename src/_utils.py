@@ -1,5 +1,7 @@
 import re
 import json
+import time
+
 
 def extract_json_from_markdown(markdown_string):
     """Extracts JSON from a Markdown string.
@@ -30,19 +32,38 @@ from tqdm import tqdm
 import anyio
 
 
+import anyio
+from typing import Callable, Awaitable, Sequence, TypeVar, Optional
+
 T = TypeVar("T")
 
-async def task_group_gather(tasks: Sequence[Callable[[], Awaitable[T]]]):
+import asyncio
+import anyio
+from typing import Callable, Awaitable, Sequence, TypeVar, Optional
 
-    results: list[T] = [None] * len(tasks)
-    print('len result', len(results))
+T = TypeVar("T")
 
-    async def _run_task(tsk: Callable[[], Awaitable[T]], index: int):
-        """Helper function to run a task and store the result in the correct index."""
-        results[index] = await tsk()
+async def task_group_gather(tasks: Sequence[Callable[[], Awaitable[T]]],
+                            timeout_seconds: 120) -> list[Optional[T]]:
+    results: list[Optional[T]] = [None] * len(tasks)
+    max_retries = 5
+
+    async def _run_task(task_fn: Callable[[], Awaitable[T]], index: int):
+        for attempt in range(max_retries + 1):
+            try:
+                result = await asyncio.wait_for(task_fn(), timeout=timeout_seconds)
+                results[index] = result
+                return
+            except asyncio.TimeoutError:
+                print(f"Task {index} timed out on attempt {attempt + 1}")
+            except Exception as e:
+                print(f"Task {index} failed with error: {e}")
+                return
+        print(f"Task {index} failed after {max_retries + 1} attempts")
 
     async with anyio.create_task_group() as tg:
-        for i, task in enumerate(tasks):
-            tg.start_soon(_run_task, task, i)
+        for i, task_fn in enumerate(tasks):
+            tg.start_soon(_run_task, task_fn, i)
 
     return results
+

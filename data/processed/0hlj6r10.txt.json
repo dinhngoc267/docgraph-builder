@@ -1,0 +1,54 @@
+{
+  "title": "Forty-Five Years of Marburg Virus Research",
+  "authors": [
+    "Brauburger, Kristina",
+    "Hume, Adam J.",
+    "M\u00fchlberger, Elke",
+    "Olejnik, Judith"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DATE",
+          "text": "1967"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "filovirus hemorrhagic fever"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Marburg virus disease"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "Marburg virus"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "1967",
+          "tail": "filovirus hemorrhagic fever",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "Marburg virus",
+          "tail": "Marburg virus disease",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Marburg virus",
+          "tail": "filovirus hemorrhagic fever",
+          "relation_type": "CAUSES"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "In 1967, the first reported filovirus hemorrhagic fever outbreak took place in Germany and the former Yugoslavia. The causative agent that was identified during this outbreak, Marburg virus, is one of the most deadly human pathogens. This article provides a comprehensive overview of our current knowledge about Marburg virus disease ranging from ecology to pathogenesis and molecular biology."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

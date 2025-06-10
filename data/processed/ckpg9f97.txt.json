@@ -1,0 +1,116 @@
+{
+  "title": "The Human Cytomegalovirus DNA Polymerase Processivity Factor UL44 Is Modified by SUMO in a DNA-Dependent Manner",
+  "authors": [
+    "Sinigalia, Elisa",
+    "Alvisi, Gualtiero",
+    "Segr\u00e9, Chiara V.",
+    "Mercorelli, Beatrice",
+    "Muratore, Giulia",
+    "Winkler, Michael",
+    "Hsiao, He-Hsuan",
+    "Urlaub, Henning",
+    "Ripalti, Alessandro",
+    "Chiocca, Susanna",
+    "Pal\u00f9, Giorgio",
+    "Loregian, Arianna"
+  ],
+  "units": [
+    {
+      "text": "During the replication of human cytomegalovirus (HCMV) genome, the viral DNA polymerase subunit UL44 plays a key role, as by binding both DNA and the polymerase catalytic subunit it confers processivity to the holoenzyme. However, several lines of evidence suggest that UL44 might have additional roles during virus life cycle. To shed light on this, we searched for cellular partners of UL44 by yeast two-hybrid screenings. Intriguingly, we discovered the interaction of UL44 with Ubc9, an enzyme involved in the covalent conjugation of SUMO (Small Ubiquitin-related MOdifier) to cellular and viral proteins. We found that UL44 can be extensively sumoylated not only in a cell-free system and in transfected cells, but also in HCMV-infected cells, in which about 50% of the protein resulted to be modified at late times post-infection, when viral genome replication is accomplished. Mass spectrometry studies revealed that UL44 possesses multiple SUMO target sites, located throughout the protein. Remarkably, we observed that binding of UL44 to DNA greatly stimulates its sumoylation both in vitro and in vivo. In addition, we showed that overexpression of SUMO alters the intranuclear distribution of UL44 in HCMV-infected cells, and enhances both virus production and DNA replication, arguing for an important role for sumoylation in HCMV life cycle and UL44 function(s). These data report for the first time the sumoylation of a viral processivity factor and show that there is a functional interplay between the HCMV UL44 protein and the cellular sumoylation system.",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "human cytomegalovirus"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HCMV"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "UL44"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "DNA polymerase subunit"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Ubc9"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "SUMO"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Small Ubiquitin-related MOdifier"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "sumoylated"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "mass spectrometry"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "UL44",
+          "tail": "DNA polymerase subunit",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "UL44",
+          "tail": "HCMV",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "UL44",
+          "tail": "SUMO",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "UL44",
+          "tail": "sumoylated",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "UL44",
+          "tail": "mass spectrometry",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "SUMO",
+          "tail": "Ubc9",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "SUMO",
+          "tail": "Small Ubiquitin-related MOdifier",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "sumoylated",
+          "tail": "HCMV",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "sumoylated",
+          "tail": "UL44",
+          "relation_type": "IS_RELATED_TO"
+        }
+      ]
+    },
+    {
+      "text": "",
+      "section_title": null,
+      "mentions": [],
+      "relationships": null
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

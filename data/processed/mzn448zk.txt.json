@@ -1,0 +1,62 @@
+{
+  "title": "Clinical review: Mass casualty triage \u2013 pandemic influenza and critical care",
+  "authors": [
+    "Challen, Kirsty",
+    "Bentley, Andrew",
+    "Bright, John",
+    "Walter, Darren"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "RESULT",
+          "text": "over 700,000 patients requiring mechanical ventilation"
+        },
+        {
+          "type_": "RESULT",
+          "text": "231% occupancy of current level 3 (intensive care unit) bed capacity"
+        },
+        {
+          "type_": "RESULT",
+          "text": "mortality is likely to be high and the risk to healthcare workers significant"
+        },
+        {
+          "type_": "METHOD",
+          "text": "multi-faceted contingency planning"
+        },
+        {
+          "type_": "METHOD",
+          "text": "triage tool"
+        },
+        {
+          "type_": "METHOD",
+          "text": "candid public discussion of the process"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "over 700,000 patients requiring mechanical ventilation",
+          "tail": "231% occupancy of current level 3 (intensive care unit) bed capacity",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "over 700,000 patients requiring mechanical ventilation",
+          "tail": "mortality is likely to be high and the risk to healthcare workers significant",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "triage tool",
+          "tail": "candid public discussion of the process",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "Worst case scenarios for pandemic influenza planning in the US involve over 700,000 patients requiring mechanical ventilation. UK planning predicts a 231% occupancy of current level 3 (intensive care unit) bed capacity. Critical care planners need to recognise that mortality is likely to be high and the risk to healthcare workers significant. Contingency planning should, therefore, be multi-faceted, involving a robust health command structure, the facility to expand critical care provision in terms of space, equipment and staff and cohorting of affected patients in the early stages. It should also be recognised that despite this expansion of critical care, demand will exceed supply and a process for triage needs to be developed that is valid, reproducible, transparent and consistent with distributive justice. We advocate the development and validation of physiological scores for use as a triage tool, coupled with candid public discussion of the process."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": "review"
+}

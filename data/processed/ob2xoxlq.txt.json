@@ -1,0 +1,154 @@
+{
+  "title": "Discovery and Targeted LC-MS/MS of Purified Polerovirus Reveals Differences in the Virus-Host Interactome Associated with Altered Aphid Transmission",
+  "authors": [
+    "Cilia, Michelle",
+    "Peter, Kari A.",
+    "Bereman, Michael S.",
+    "Howe, Kevin",
+    "Fish, Tara",
+    "Smith, Dawn",
+    "Gildow, Fredrick",
+    "MacCoss, Michael J.",
+    "Thannhauser, Theodore W.",
+    "Gray, Stewart M."
+  ],
+  "units": [
+    {
+      "text": "Circulative transmission of viruses in the Luteoviridae, such as cereal yellow dwarf virus (CYDV), requires a series of precisely orchestrated interactions between virus, plant, and aphid proteins. Natural selection has favored these viruses to be retained in the phloem to facilitate acquisition and transmission by aphids. We show that treatment of infected oat tissue homogenate with sodium sulfite reduces transmission of the purified virus by aphids. Transmission electron microscopy data indicated no gross change in virion morphology due to treatments. However, treated virions were not acquired by aphids through the hindgut epithelial cells and were not transmitted when injected directly into the hemocoel. Analysis of virus preparations using nanoflow liquid chromatography coupled to tandem mass spectrometry revealed a number of host plant proteins co-purifying with viruses, some of which were lost following sodium sulfite treatment. Using targeted mass spectrometry, we show data suggesting that several of the virus-associated host plant proteins accumulated to higher levels in aphids that were fed on CYDV-infected plants compared to healthy plants. We propose two hypotheses to explain these observations, and these are not mutually exclusive: (a) that sodium sulfite treatment disrupts critical virion-host protein interactions required for aphid transmission, or (b) that host infection with CYDV modulates phloem protein expression in a way that is favorable for virus uptake by aphids. Importantly, the genes coding for the plant proteins associated with virus may be examined as targets in breeding cereal crops for new modes of virus resistance that disrupt phloem-virus or aphid-virus interactions.",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Luteoviridae"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "cereal yellow dwarf virus"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "CYDV"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "sodium sulfite"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "oat"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "aphids"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "phloem"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "hemocoel"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "nanoflow liquid chromatography"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "tandem mass spectrometry"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "CYDV-infected plants"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "healthy plants"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "phloem protein"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "sodium sulfite",
+          "tail": "CYDV-infected plants",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "sodium sulfite",
+          "tail": "CYDV",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "CYDV",
+          "tail": "Luteoviridae",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "CYDV",
+          "tail": "phloem protein",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "aphids",
+          "tail": "phloem",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "aphids",
+          "tail": "hemocoel",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "nanoflow liquid chromatography",
+          "tail": "tandem mass spectrometry",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "phloem protein",
+          "tail": "phloem",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "phloem protein",
+          "tail": "CYDV",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "sodium sulfite",
+          "tail": "phloem protein",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "CYDV-infected plants",
+          "tail": "phloem",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "healthy plants",
+          "tail": "phloem",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "aphids",
+          "tail": "CYDV-infected plants",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "aphids",
+          "tail": "healthy plants",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "CYDV",
+          "tail": "oat",
+          "relation_type": "IS_RELATED_TO"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

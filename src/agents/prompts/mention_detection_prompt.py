@@ -22,6 +22,9 @@ Ensure all outputted mentions:
 
 Be comprehensive and precise. Extract every valid mention without duplication.
 
-- Use /no_think mode.
+- Use /no_think mode. 
 
+### Real data:
+
+1. Interested Entity Types: {entity_types}
 """

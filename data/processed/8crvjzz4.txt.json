@@ -1,0 +1,270 @@
+{
+  "title": "Functional analysis of the SRV-1 RNA frameshifting pseudoknot",
+  "authors": [
+    "Olsthoorn, Ren\u00e9 C. L.",
+    "Reumerman, Richard",
+    "Hilbers, Cornelis W.",
+    "Pleij, Cornelis W. A.",
+    "Heus, Hans A."
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "Gag-Pol polyprotein"
+        },
+        {
+          "type_": "METHOD",
+          "text": "programmed ribosomal frameshifting"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "heptanucleotide slippery sequence"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "12-base pair pseudoknot"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Gag-Pol polyprotein",
+          "tail": "programmed ribosomal frameshifting",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "heptanucleotide slippery sequence",
+          "tail": "programmed ribosomal frameshifting",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "12-base pair pseudoknot",
+          "tail": "programmed ribosomal frameshifting",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "Simian retrovirus type-1 uses programmed ribosomal frameshifting to control expression of the Gag-Pol polyprotein from overlapping gag and pol open-reading frames. The frameshifting signal consists of a heptanucleotide slippery sequence and a downstream-located 12-base pair pseudoknot."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PERSON",
+          "text": "Michiels,P.J."
+        },
+        {
+          "type_": "PERSON",
+          "text": "Versleijen,A.A."
+        },
+        {
+          "type_": "PERSON",
+          "text": "Verlaan,P.W."
+        },
+        {
+          "type_": "PERSON",
+          "text": "Pleij,C.W."
+        },
+        {
+          "type_": "PERSON",
+          "text": "Hilbers,C.W."
+        },
+        {
+          "type_": "PERSON",
+          "text": "Heus,H.A."
+        },
+        {
+          "type_": "DISEASE",
+          "text": "SRV-1 RNA"
+        },
+        {
+          "type_": "METHOD",
+          "text": "NMR"
+        },
+        {
+          "type_": "RESULT",
+          "text": "solution structure of the pseudoknot of SRV-1 RNA"
+        },
+        {
+          "type_": "DATE",
+          "text": "(2001)"
+        },
+        {
+          "type_": "RESULT",
+          "text": "classical H-type fold"
+        },
+        {
+          "type_": "RESULT",
+          "text": "extended triple helix"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "solution structure of the pseudoknot of SRV-1 RNA",
+          "tail": "NMR",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "solution structure of the pseudoknot of SRV-1 RNA",
+          "tail": "(2001)",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "(2001)",
+          "tail": "solution structure of the pseudoknot of SRV-1 RNA",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "SRV-1 RNA",
+          "tail": "solution structure of the pseudoknot of SRV-1 RNA",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "2",
+      "text": "The solution structure of this pseudoknot, previously solved by NMR [Michiels,P.J., Versleijen,A.A., Verlaan,P.W., Pleij,C.W., Hilbers,C.W. and Heus,H.A. (2001) Solution structure of the pseudoknot of SRV-1 RNA, involved in ribosomal frameshifting. J. Mol. Biol., 310, 1109\u20131123] has a classical H-type fold and forms an extended triple helix by interactions between loop 2 and the minor groove of stem 1 involving base\u2013base and base\u2013sugar contacts."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "mutational analysis"
+        },
+        {
+          "type_": "METHOD",
+          "text": "\u22121 frameshifting"
+        },
+        {
+          "type_": "METHOD",
+          "text": "in vitro"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "mutational analysis",
+          "tail": "\u22121 frameshifting",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "\u22121 frameshifting",
+          "tail": "in vitro",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "3",
+      "text": "A mutational analysis was performed to test the functional importance of the triple helix for \u22121 frameshifting in vitro."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "RESULT",
+          "text": "2- to 5-fold decrease in frameshifting efficiency"
+        }
+      ],
+      "relationships": [],
+      "section_title": null,
+      "unit_id": "4",
+      "text": "Changing bases in L2 or base pairs in S1 involved in a base triple resulted in a 2- to 5-fold decrease in frameshifting efficiency."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "L2"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "L2",
+          "tail": "L2",
+          "relation_type": "CAUSES"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "5",
+      "text": "Alterations in the length of L2 had adverse effects on frameshifting."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "in vitro"
+        },
+        {
+          "type_": "METHOD",
+          "text": "in vivo"
+        },
+        {
+          "type_": "RESULT",
+          "text": "the effect of enlarging L2 was more dramatic in vivo"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "in vitro",
+          "tail": "in vivo",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "in vivo",
+          "tail": "the effect of enlarging L2 was more dramatic in vivo",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "the effect of enlarging L2 was more dramatic in vivo",
+          "tail": "in vivo",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "in vivo",
+          "tail": "in vivo",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "6",
+      "text": "The in vitro effects were well reproduced in vivo, although the effect of enlarging L2 was more dramatic in vivo."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "refolding kinetics of frameshifter pseudoknots"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "refolding kinetics of frameshifter pseudoknots",
+          "tail": "refolding kinetics of frameshifter pseudoknots",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "7",
+      "text": "The putative role of refolding kinetics of frameshifter pseudoknots is discussed."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "triple helix"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "triple helix",
+          "tail": "triple helix",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "8",
+      "text": "Overall, the data emphasize the role of the triple helix in \u22121 frameshifting."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

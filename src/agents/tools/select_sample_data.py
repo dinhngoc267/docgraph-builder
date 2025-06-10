@@ -12,7 +12,8 @@ def select_sample_data(data_dir:str, limit_length:int=10000):
     file_patterns = ['*.txt']
 
     for pattern in file_patterns:
-        files = glob.glob(os.path.join(data_dir, pattern))
+        files = glob.glob(f"data/cord-19/articles/*.txt")
+        print(len(files))
         if files:
             chosen_file = random.choice(files)
 

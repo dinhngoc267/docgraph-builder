@@ -1,0 +1,117 @@
+{
+  "title": "New Cardiovascular and Pulmonary Therapeutic Strategies Based on the Angiotensin-Converting Enzyme 2/Angiotensin-(1\u20137)/Mas Receptor Axis",
+  "authors": [
+    "Ferreira, Anderson J.",
+    "Mur\u00e7a, Tatiane M.",
+    "Fraga-Silva, Rodrigo A.",
+    "Castro, Carlos Henrique",
+    "Raizada, Mohan K.",
+    "Santos, Robson A. S."
+  ],
+  "units": [
+    {
+      "text": "Angiotensin (Ang)-(1\u20137) is now recognized as a biologically active component of the renin-angiotensin system (RAS). The discovery of the angiotensin-converting enzyme homologue ACE2 revealed important metabolic pathways involved in the Ang-(1\u20137) synthesis. This enzyme can form Ang-(1\u20137) from Ang II or less efficiently through hydrolysis of Ang I to Ang-(1\u20139) with subsequent Ang-(1\u20137) formation. Additionally, it is well established that the G protein-coupled receptor Mas is a functional ligand site for Ang-(1\u20137). The axis formed by ACE2/Ang-(1\u20137)/Mas represents an endogenous counter regulatory pathway within the RAS whose actions are opposite to the vasoconstrictor/proliferative arm of the RAS constituted by ACE/Ang II/AT(1) receptor. In this review we will discuss recent findings concerning the biological role of the ACE2/Ang-(1\u20137)/Mas arm in the cardiovascular and pulmonary system. Also, we will highlight the initiatives to develop potential therapeutic strategies based on this axis.",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Angiotensin (Ang)-(1\u20137)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "renin-angiotensin system (RAS)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "angiotensin-converting enzyme homologue ACE2"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Ang II"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Ang I"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Ang-(1\u20139)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "G protein-coupled receptor Mas"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "ACE2/Ang-(1\u20137)/Mas"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "ACE/Ang II/AT(1) receptor"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "cardiovascular"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "pulmonary system"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Angiotensin (Ang)-(1\u20137)",
+          "tail": "renin-angiotensin system (RAS)",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "angiotensin-converting enzyme homologue ACE2",
+          "tail": "Angiotensin (Ang)-(1\u20137)",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "angiotensin-converting enzyme homologue ACE2",
+          "tail": "Ang II",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "angiotensin-converting enzyme homologue ACE2",
+          "tail": "Ang I",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "angiotensin-converting enzyme homologue ACE2",
+          "tail": "Ang-(1\u20139)",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "G protein-coupled receptor Mas",
+          "tail": "Angiotensin (Ang)-(1\u20137)",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "ACE2/Ang-(1\u20137)/Mas",
+          "tail": "renin-angiotensin system (RAS)",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "ACE2/Ang-(1\u20137)/Mas",
+          "tail": "ACE/Ang II/AT(1) receptor",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "ACE2/Ang-(1\u20137)/Mas",
+          "tail": "cardiovascular",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "ACE2/Ang-(1\u20137)/Mas",
+          "tail": "pulmonary system",
+          "relation_type": "IS_LOCATED_IN"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": "review"
+}

@@ -1,0 +1,214 @@
+{
+  "title": "Relative cost and outcomes in the intensive care unit of acute lung injury (ALI) due to pandemic influenza compared with other etiologies: a single-center study",
+  "authors": [
+    "Wiesen, Jonathan",
+    "Komara, John J",
+    "Walker, Esteban",
+    "Wiedemann, Herbert P",
+    "Guzman, Jorge A"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "2009 H1N1 influenza"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "acute lung injury (ALI)"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "acute respiratory distress syndrome (ARDS)"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "pandemic influenza A infection"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "ALI"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "ARDS"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "2009 H1N1 influenza",
+          "tail": "acute lung injury (ALI)",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "2009 H1N1 influenza",
+          "tail": "acute respiratory distress syndrome (ARDS)",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "pandemic influenza A infection",
+          "tail": "acute lung injury (ALI)",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "pandemic influenza A infection",
+          "tail": "acute respiratory distress syndrome (ARDS)",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "ALI",
+          "tail": "ARDS",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "BACKGROUND",
+      "unit_id": "1",
+      "text": "BACKGROUND: Critical illness due to 2009 H1N1 influenza has been characterized by respiratory complications, including acute lung injury (ALI) or acute respiratory distress syndrome (ARDS), and associated with high mortality. We studied the severity, outcomes, and hospital charges of patients with ALI/ARDS secondary to pandemic influenza A infection compared with ALI and ARDS from other etiologies."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "ORGANIZATION",
+          "text": "Cleveland Clinic"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "ALI/ARDS"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "influenza A"
+        },
+        {
+          "type_": "DATE",
+          "text": "September 2009"
+        },
+        {
+          "type_": "DATE",
+          "text": "March 2010"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Cleveland Clinic",
+          "tail": "ALI/ARDS",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "ALI/ARDS",
+          "tail": "influenza A",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "September 2009",
+          "tail": "March 2010",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": "METHODS",
+      "unit_id": "2",
+      "text": "METHODS: A retrospective review was conducted that included patients admitted to the Cleveland Clinic MICU with ALI/ARDS and confirmed influenza A infection, and all patients admitted with ALI/ARDS from any other etiology from September 2009 to March 2010. An itemized list of individual hospital charges was obtained for each patient from the hospital billing office and organized by billing code into a database. Continuous data that were normally distributed are presented as the mean \u00b1 SD and were analyzed by the Student\u2019s t test. The chi-square and Fisher exact tests were used to evaluate differences in proportions between patient subgroups. Data that were not normally distributed were compared with the Wilcoxon rank-sum test."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "H1N1"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "noninfluenza"
+        },
+        {
+          "type_": "RESULT",
+          "text": "lower APACHE III scores"
+        },
+        {
+          "type_": "RESULT",
+          "text": "higher Pplat and PEEP on days 1, 3, and 14"
+        },
+        {
+          "type_": "RESULT",
+          "text": "more severe organ failure"
+        },
+        {
+          "type_": "RESULT",
+          "text": "higher overall charges"
+        },
+        {
+          "type_": "RESULT",
+          "text": "higher cost of blood products"
+        },
+        {
+          "type_": "RESULT",
+          "text": "Hospital mortality was significantly higher in the noninfluenza group"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "H1N1",
+          "tail": "lower APACHE III scores",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "noninfluenza",
+          "tail": "more severe organ failure",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "noninfluenza",
+          "tail": "higher overall charges",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "noninfluenza",
+          "tail": "higher cost of blood products",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "noninfluenza",
+          "tail": "Hospital mortality was significantly higher in the noninfluenza group",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "RESULTS",
+      "unit_id": "3",
+      "text": "RESULTS: Forty-five patients were studied: 23 in the H1N1 group and 22 in the noninfluenza group. Mean \u00b1 SD age was similar (44 \u00b1 13 and 51 \u00b1 17 years, respectively, p = 0.15). H1N1 patients had lower APACHE III scores (66 \u00b1 20 vs. 89 \u00b1 32, p = 0.015) and had higher Pplat and PEEP on days 1, 3, and 14. Hospital and ICU length of stay and duration of mechanical ventilation were comparable. SOFA scores over the first 2 weeks in the ICU indicate more severe organ failure in the noninfluenza group (p = 0.017). Hospital mortality was significantly higher in the noninfluenza group (77 vs. 39%, p = 0.016). The noninfluenza group tended to have higher overall charges, including significantly higher cost of blood products in the ICU."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "ALI/ARDS"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "pandemic influenza infection"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "noninfluenza group"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "ALI/ARDS",
+          "tail": "pandemic influenza infection",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "noninfluenza group",
+          "tail": "ALI/ARDS",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "CONCLUSIONS",
+      "unit_id": "4",
+      "text": "CONCLUSIONS: ALI/ARDS secondary to pandemic influenza infection is associated with more severe respiratory compromise but has lower overall acuity and better survival rates than ALI/ARDS due to other causes. Higher absolute charges in the noninfluenza group are likely due to underlying comorbid medical conditions."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

@@ -1,0 +1,144 @@
+{
+  "title": "Differential Induction of Functional IgG Using the Plasmodium falciparum Placental Malaria Vaccine Candidate VAR2CSA",
+  "authors": [
+    "Pinto, Vera V.",
+    "Ditlev, Sisse B.",
+    "Jensen, Kamilla E.",
+    "Resende, Mafalda",
+    "Dahlb\u00e4ck, Madeleine",
+    "Andersen, Gorm",
+    "Andersen, Pernille",
+    "Theander, Thor G.",
+    "Salanti, Ali",
+    "Nielsen, Morten A."
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "Plasmodium falciparum malaria"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "placental malaria"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "malaria"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "VAR2CSA"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "chondroitin sulfate A"
+        },
+        {
+          "type_": "METHOD",
+          "text": "vaccine against PM"
+        },
+        {
+          "type_": "RESULT",
+          "text": "immunity to PM"
+        },
+        {
+          "type_": "RESULT",
+          "text": "antibody-mediated immune responses"
+        },
+        {
+          "type_": "RESULT",
+          "text": "adhesion of infected erythrocytes (IE) in the placenta"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Plasmodium falciparum malaria",
+          "tail": "placental malaria",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "malaria",
+          "tail": "placental malaria",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "VAR2CSA",
+          "tail": "chondroitin sulfate A",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "immunity to PM",
+          "tail": "antibody-mediated immune responses",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "vaccine against PM",
+          "tail": "antibody-mediated immune responses",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "adhesion of infected erythrocytes (IE) in the placenta",
+          "tail": "placental malaria",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "background",
+      "text": "BACKGROUND: In Plasmodium falciparum malaria endemic areas placental malaria (PM) is an important complication of malaria. The recurrence of malaria in primigravidae women irrespective of acquired protection during childhood is caused by the interaction between the parasite-expressed VAR2CSA antigen and chondroitin sulfate A (CSA) in the placental intervillous space and lack of protective antibodies. PM impairs fetal development mainly by excessive inflammation processes. After infections during pregnancy women acquire immunity to PM conferred by antibodies against VAR2CSA. Ideally, a vaccine against PM will induce antibody-mediated immune responses that block the adhesion of infected erythrocytes (IE) in the placenta."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "VAR2CSA"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "FCR3 VAR2CSA"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "FCR3 VAR2CSA",
+          "tail": "VAR2CSA",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "VAR2CSA",
+          "tail": "FCR3 VAR2CSA",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "principal_findings",
+      "text": "PRINCIPAL FINDINGS: We have previously shown that antibodies raised in rat against individual domains of VAR2CSA can block IE binding to CSA. In this study we have immunized mice, rats and rabbits with each individual domain and the full-length protein corresponding to the FCR3 VAR2CSA variant. We found there is an inherently higher immunogenicity of C-terminal domains compared to N-terminally located domains. This was irrespective of whether antibodies were induced against single domains or the full-length protein. Species-specific antibody responses were also found, these were mainly directed against single domains and not the full-length VAR2CSA protein."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "VAR2CSA"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "DBL6\u03b5"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "VAR2CSA",
+          "tail": "DBL6\u03b5",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "conclusions_significance",
+      "text": "CONCLUSIONS/SIGNIFICANCE: Binding inhibitory antibodies appeared to be against conformational B-cell epitopes. Non-binding inhibitory antibodies reacted highly against the C-terminal end of the VAR2CSA molecule especially the highly polymorphic DBL6\u03b5 domain. Differential species-specific induction of antibody responses may allow for more direct analysis of functional versus non-functional B-cell epitopes."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

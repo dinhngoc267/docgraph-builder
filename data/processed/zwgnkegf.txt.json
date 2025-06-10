@@ -1,0 +1,18 @@
+{
+  "title": "Fluorescence Competition Assay Measurements of Free Energy Changes for RNA Pseudoknots",
+  "authors": [
+    "Liu, Biao",
+    "Shankar, Neelaabh",
+    "Turner, Douglas H."
+  ],
+  "units": [
+    {
+      "text": "[Image: see text] RNA pseudoknots have important functions, and thermodynamic stability is a key to predicting pseudoknots in RNA sequences and to understanding their functions. Traditional methods, such as UV melting and differential scanning calorimetry, for measuring RNA thermodynamics are restricted to temperature ranges around the melting temperature for a pseudoknot. Here, we report RNA pseudoknot free energy changes at 37 \u00b0C measured by fluorescence competition assays. Sequence-dependent studies for the loop 1\u2212stem 2 region reveal (1) the individual nearest-neighbor hydrogen bonding (INN-HB) model provides a reasonable estimate for the free energy change when a Watson\u2212Crick base pair in stem 2 is changed, (2) the loop entropy can be estimated by a statistical polymer model, although some penalty for certain loop sequences is necessary, and (3) tertiary interactions can significantly stabilize pseudoknots and extending the length of stem 2 may alter tertiary interactions such that the INN-HB model does not predict the net effect of adding a base pair. The results can inform writing of algorithms for predicting and/or designing RNA secondary structures.",
+      "section_title": null,
+      "mentions": [],
+      "relationships": null
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

@@ -1,0 +1,318 @@
+{
+  "title": "The evolution of human influenza A viruses from 1999 to 2006: A complete genome study",
+  "authors": [
+    "Bragstad, Karoline",
+    "Nielsen, Lars P",
+    "Fomsgaard, Anders"
+  ],
+  "units": [
+    {
+      "text": "Knowledge about the complete genome constellation of seasonal influenza A viruses from different countries is valuable for monitoring and understanding of the evolution and migration of strains. Few complete genome sequences of influenza A viruses from Europe are publicly available at the present time and there have been few longitudinal genome studies of human influenza A viruses. We have studied the evolution of circulating human H3N2, H1N1 and H1N2 influenza A viruses from 1999 to 2006, we analysed 234 Danish human influenza A viruses and characterised 24 complete genomes.",
+      "section_title": "BACKGROUND",
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "seasonal influenza A viruses"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "Europe"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H3N2"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H1N1"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H1N2"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "Danish"
+        },
+        {
+          "type_": "DATE",
+          "text": "1999"
+        },
+        {
+          "type_": "DATE",
+          "text": "2006"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "seasonal influenza A viruses",
+          "tail": "H3N2",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "seasonal influenza A viruses",
+          "tail": "H1N1",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "seasonal influenza A viruses",
+          "tail": "H1N2",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "H3N2",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N1",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N2",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "Danish",
+          "tail": "Europe",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "H3N2",
+          "tail": "1999",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N1",
+          "tail": "1999",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N2",
+          "tail": "1999",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H3N2",
+          "tail": "2006",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N1",
+          "tail": "2006",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N2",
+          "tail": "2006",
+          "relation_type": "OCCURS_IN"
+        }
+      ]
+    },
+    {
+      "text": "H3N2 was the prevalent strain in Denmark during the study period, but H1N1 dominated the 2000\u20132001 season. H1N2 viruses were first observed in Denmark in 2002\u20132003. After years of little genetic change in the H1N1 viruses the 2005\u20132006 season presented H1N1 of greater variability than before. This indicates that H1N1 viruses are evolving and that H1N1 soon is likely to be the prevalent strain again. Generally, the influenza A haemagglutinin (HA) of H3N2 viruses formed seasonal phylogenetic clusters. Different lineages co-circulating within the same season were also observed. The evolution has been stochastic, influenced by small \"jumps\" in genetic distance rather than constant drift, especially with the introduction of the Fujian-like viruses in 2002\u20132003. Also evolutionary stasis-periods were observed which might indicate well fit viruses. The evolution of H3N2 viruses have also been influenced by gene reassortments between lineages from different seasons. None of the influenza genes were influenced by strong positive selection pressure. The antigenic site B in H3N2 HA was the preferred site for genetic change during the study period probably because the site A has been masked by glycosylations. Substitutions at CTL-epitopes in the genes coding for the neuraminidase (NA), polymerase acidic protein (PA), matrix protein 1 (M1), non-structural protein 1 (NS1) and especially the nucleoprotein (NP) were observed. The N-linked glycosylation pattern varied during the study period and the H3N2 isolates from 2004 to 2006 were highly glycosylated with ten predicted sequons in HA, the highest amount of glycosylations observed in this study period.",
+      "section_title": "RESULTS",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H3N2"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "Denmark"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H1N1"
+        },
+        {
+          "type_": "DATE",
+          "text": "2000\u20132001"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H1N2"
+        },
+        {
+          "type_": "DATE",
+          "text": "2002\u20132003"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H1N1"
+        },
+        {
+          "type_": "DATE",
+          "text": "2005\u20132006"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "influenza A haemagglutinin (HA)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Fujian-like viruses"
+        },
+        {
+          "type_": "DATE",
+          "text": "2002\u20132003"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "haemagglutinin (HA)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "neuraminidase (NA)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "polymerase acidic protein (PA)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "matrix protein 1 (M1)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "non-structural protein 1 (NS1)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "nucleoprotein (NP)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "H3N2"
+        },
+        {
+          "type_": "DATE",
+          "text": "2004 to 2006"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "H3N2",
+          "tail": "Denmark",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N1",
+          "tail": "2000\u20132001",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N2",
+          "tail": "2002\u20132003",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "H1N1",
+          "tail": "2005\u20132006",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "influenza A haemagglutinin (HA)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "Fujian-like viruses",
+          "tail": "2002\u20132003",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "neuraminidase (NA)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "polymerase acidic protein (PA)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "matrix protein 1 (M1)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "non-structural protein 1 (NS1)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "nucleoprotein (NP)",
+          "tail": "H3N2",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "H3N2",
+          "tail": "2004 to 2006",
+          "relation_type": "OCCURS_IN"
+        }
+      ]
+    },
+    {
+      "text": "The present study is the first to our knowledge to characterise the evolution of complete genomes of influenza A H3N2, H1N1 and H1N2 isolates from Europe over a time period of seven years from 1999 to 2006. More precise knowledge about the circulating strains may have implications for predicting the following season strains and thereby better matching the vaccine composition.",
+      "section_title": "CONCLUSION",
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "influenza A H3N2"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "influenza A H1N1"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "influenza A H1N2"
+        },
+        {
+          "type_": "LOCATION",
+          "text": "Europe"
+        },
+        {
+          "type_": "DATE",
+          "text": "1999"
+        },
+        {
+          "type_": "DATE",
+          "text": "2006"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "influenza A H3N2",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "influenza A H1N1",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "influenza A H1N2",
+          "tail": "Europe",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "1999",
+          "tail": "Europe",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "2006",
+          "tail": "Europe",
+          "relation_type": "IS_LOCATED_IN"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

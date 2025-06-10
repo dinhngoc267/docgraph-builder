@@ -1,0 +1,149 @@
+{
+  "title": "Extrapulmonary tissue responses in cynomolgus macaques (Macaca fascicularis) infected with highly pathogenic avian influenza A (H5N1) virus",
+  "authors": [
+    "Tolnay, A.-E.",
+    "Baskin, C. R.",
+    "Tumpey, T. M.",
+    "Sabourin, P. J.",
+    "Sabourin, C. L.",
+    "Long, J. P.",
+    "Pyles, J. A.",
+    "Albrecht, R. A.",
+    "Garcc\u00eda-Sastre, A.",
+    "Katze, M. G.",
+    "Bielefeldt-Ohmann, H."
+  ],
+  "units": [
+    {
+      "text": "The mechanisms responsible for virulence of influenza viruses in humans remain poorly understood. A prevailing hypothesis is that the highly pathogenic virus isolates cause a severe cytokinemia precipitating acute respiratory distress syndrome and multiple organ dysfunction syndrome. Cynomolgus macaques (Macaca fascicularis) infected with a human highly pathogenic avian influenza (HPAI) H5N1 virus isolate (A/Vietnam/1203/2004) or reassortants of human influenza virus A/Texas/36/91 (H1N1) containing genes from the 1918 pandemic influenza A (H1N1) virus developed severe pneumonia within 24 h postinfection. However, virus spread beyond the lungs was only detected in the H5N1 group, and signs of extrapulmonary tissue reactions, including microglia activation and sustained up-regulation of inflammatory markers, most notably hypoxia inducible factor-1\u03b1 (HIF-1\u03b1), were largely limited to this group. Extrapulmonary pathology may thus contribute to the morbidities induced by H5N1 viruses.",
+      "section_title": null,
+      "unit_id": null,
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "influenza"
+        },
+        {
+          "type_": "SYMPTOM",
+          "text": "cytokinemia"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "acute respiratory distress syndrome"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "multiple organ dysfunction syndrome"
+        },
+        {
+          "type_": "ORGANISM",
+          "text": "Cynomolgus macaques"
+        },
+        {
+          "type_": "ORGANISM",
+          "text": "Macaca fascicularis"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "human highly pathogenic avian influenza (HPAI) H5N1 virus"
+        },
+        {
+          "type_": "ORGANISM",
+          "text": "A/Vietnam/1203/2004"
+        },
+        {
+          "type_": "ORGANISM",
+          "text": "human influenza virus A/Texas/36/91 (H1N1)"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "1918 pandemic influenza A (H1N1) virus"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "pneumonia"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "H5N1"
+        },
+        {
+          "type_": "SYMPTOM",
+          "text": "microglia activation"
+        },
+        {
+          "type_": "GENE",
+          "text": "hypoxia inducible factor-1\u03b1 (HIF-1\u03b1)"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "extrapulmonary pathology"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "cytokinemia",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "cytokinemia",
+          "tail": "acute respiratory distress syndrome",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "cytokinemia",
+          "tail": "multiple organ dysfunction syndrome",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "pneumonia",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "H5N1",
+          "relation_type": "IS_A_MEMBER_OF"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "influenza",
+          "relation_type": "IS_A"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "Cynomolgus macaques",
+          "relation_type": "IS_FOUND_IN"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "Macaca fascicularis",
+          "relation_type": "IS_FOUND_IN"
+        },
+        {
+          "head": "human highly pathogenic avian influenza (HPAI) H5N1 virus",
+          "tail": "A/Vietnam/1203/2004",
+          "relation_type": "IS_TREATED_BY"
+        },
+        {
+          "head": "pneumonia",
+          "tail": "extrapulmonary pathology",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "extrapulmonary pathology",
+          "tail": "microglia activation",
+          "relation_type": "HAS_SYMPTOM"
+        },
+        {
+          "head": "extrapulmonary pathology",
+          "tail": "hypoxia inducible factor-1\u03b1 (HIF-1\u03b1)",
+          "relation_type": "HAS_SYMPTOM"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": "full_text"
+}

@@ -1,0 +1,217 @@
+{
+  "title": "Successful treatment of HIV-associated multicentric Castleman's disease and multiple organ failure with rituximab and supportive care: a case report",
+  "authors": [
+    "Johns, Robin H",
+    "Doyle, Tomas",
+    "Lipman, Marc C",
+    "Cwynarski, Kate",
+    "Cleverley, Joanne R",
+    "Isaacson, Peter G",
+    "Shaw, Steve",
+    "Agarwal, Banwari"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "Multicentric Castleman's Disease"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "lymphoproliferative disorder"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HIV"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "this condition"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "rituximab"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Multicentric Castleman's Disease",
+          "tail": "lymphoproliferative disorder",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Multicentric Castleman's Disease",
+          "tail": "HIV",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "this condition",
+          "tail": "rituximab",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "this condition",
+          "tail": "HIV",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "INTRODUCTION",
+      "unit_id": "1",
+      "text": "Multicentric Castleman's Disease (MCD), a lymphoproliferative disorder associated with Human Herpes Virus-8 (HHV-8) infection, is increasing in incidence amongst HIV patients. This condition is associated with lymphadenopathy, polyclonal gammopathy, hepato-splenomegaly and systemic symptoms. A number of small studies have demonstrated the efficacy of the anti-CD20 monoclonal antibody, rituximab, in treating this condition."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PERSON",
+          "text": "Zambian woman"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "MCD"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "rituximab"
+        },
+        {
+          "type_": "DATE",
+          "text": "46 year old"
+        },
+        {
+          "type_": "DATE",
+          "text": "21 days"
+        },
+        {
+          "type_": "DATE",
+          "text": "149 days"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "46 year old",
+          "tail": "Zambian woman",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "MCD",
+          "tail": "rituximab",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "rituximab",
+          "tail": "MCD",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "Zambian woman",
+          "tail": "MCD",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Zambian woman",
+          "tail": "rituximab",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "21 days",
+          "tail": "Zambian woman",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "149 days",
+          "tail": "Zambian woman",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": "CASE PRESENTATION",
+      "unit_id": "2",
+      "text": "We report the case of a 46 year old Zambian woman who presented with pyrexia, diarrhoea and vomiting, confusion, lymphadenopathy, and renal failure. She rapidly developed multiple organ failure following the initiation of treatment of MCD with rituximab. Following admission to intensive care (ICU), she received prompt multi-organ support. After 21 days on the ICU she returned to the haematology medical ward, and was discharged in remission from her disease after 149 days in hospital."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "MEDICATION",
+          "text": "Rituximab"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "cyclophosphamide"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "adriamycin"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "prednisolone"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "MCD"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HIV"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "haematological disease"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Rituximab",
+          "tail": "MCD",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "MCD",
+          "tail": "haematological disease",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HIV",
+          "tail": "haematological disease",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Rituximab",
+          "tail": "cyclophosphamide",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "Rituximab",
+          "tail": "adriamycin",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "Rituximab",
+          "tail": "prednisolone",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "cyclophosphamide",
+          "tail": "adriamycin",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "cyclophosphamide",
+          "tail": "prednisolone",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "adriamycin",
+          "tail": "prednisolone",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": "CONCLUSION",
+      "unit_id": "3",
+      "text": "Rituximab, the efficacy of which has thus far been examined predominantly in patients outside the ICU, in conjunction with extensive organ support was effective treatment for MCD with associated multiple organ failure. There is, to our knowledge, only one other published report of its successful use in an ICU setting, where it was combined with cyclophosphamide, adriamycin and prednisolone. Reports such as ours support the notion that critically unwell patients with HIV and haematological disease can benefit from intensive care."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": "case report"
+}

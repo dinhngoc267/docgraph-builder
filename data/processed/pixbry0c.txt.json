@@ -1,0 +1,74 @@
+{
+  "title": "Spatial dynamics of the 1918 influenza pandemic in England, Wales and the United States",
+  "authors": [
+    "Eggo, Rosalind M.",
+    "Cauchemez, Simon",
+    "Ferguson, Neil M."
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "influenza"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "1918 pandemic"
+        },
+        {
+          "type_": "METHOD",
+          "text": "Bayesian Markov Chain Monte Carlo methods"
+        },
+        {
+          "type_": "RESULT",
+          "text": "mortality data"
+        },
+        {
+          "type_": "DATE",
+          "text": "1918"
+        },
+        {
+          "type_": "RESULT",
+          "text": "degree of density dependence in connectivity between cities"
+        },
+        {
+          "type_": "RESULT",
+          "text": "local infection events"
+        },
+        {
+          "type_": "RESULT",
+          "text": "parameters estimated from the England and Wales dataset can be applied to the US data with no likelihood penalty"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "1918 pandemic",
+          "tail": "influenza",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "1918 pandemic",
+          "tail": "mortality data",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "mortality data",
+          "tail": "1918",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "parameters estimated from the England and Wales dataset can be applied to the US data with no likelihood penalty",
+          "tail": "Bayesian Markov Chain Monte Carlo methods",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "There is still limited understanding of key determinants of spatial spread of influenza. The 1918 pandemic provides an opportunity to elucidate spatial determinants of spread on a large scale. To better characterize the spread of the 1918 major wave, we fitted a range of city-to-city transmission models to mortality data collected for 246 population centres in England and Wales and 47 cities in the US. Using a gravity model for city-to-city contacts, we explored the effect of population size and distance on the spread of disease and tested assumptions regarding density dependence in connectivity between cities. We employed Bayesian Markov Chain Monte Carlo methods to estimate parameters of the model for population, infectivity, distance and density dependence. We inferred the most likely transmission trees for both countries. For England and Wales, a model that estimated the degree of density dependence in connectivity between cities was preferable by deviance information criterion comparison. Early in the major wave, long distance infective interactions predominated, with local infection events more likely as the epidemic became widespread. For the US, with fewer more widely dispersed cities, statistical power was lacking to estimate population size dependence or the degree of density dependence, with the preferred model depending on distance only. We find that parameters estimated from the England and Wales dataset can be applied to the US data with no likelihood penalty."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

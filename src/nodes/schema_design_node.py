@@ -40,10 +40,16 @@ class SchemaDesignNode(BaseNode):
         while True:
             # Step 1. Pick a data sample
             sample_data: str = select_sample_data(self.data_dir)
+            background = """
+                    The data is the CORD-19 dataset, which is a large collection of scientific articles related to COVID-19 and coronaviruses. It contains full-text papers, metadata, and abstracts.
 
+            We plan to use this data to extract structured information about biomedical entities like drugs, proteins, diseases, and their relationships. The goal is to build a knowledge graph that integrates this information to support downstream tasks such as scientific question answering, drug discovery, and literature-based hypothesis generation.
+            For example: "Which drugs have been studied for treating COVID-19?" "What are the known side effects of Remdesivir?",..
+                    """
             # Step 2: Run schema design agent
             schema_design_result = await schema_design_agent.run(
-                user_prompt=f"Document sample: {sample_data}\n"
+                user_prompt=f"**Back ground, user's purpose**: {background}\n"
+                f"Document sample: {sample_data}\n"
                             "\n=============\n"
                             f"Ontology: {str(self.ontology)}",
             )

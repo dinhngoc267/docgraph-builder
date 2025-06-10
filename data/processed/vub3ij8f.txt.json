@@ -1,0 +1,300 @@
+{
+  "title": "Fas-deficient mice have impaired alveolar neutrophil recruitment and decreased expression of anti-KC autoantibody:KC complexes in a model of acute lung injury",
+  "authors": [
+    "Gil, Sucheol",
+    "Farnand, Alex W",
+    "Altemeier, William A",
+    "Gill, Sean E",
+    "Kurdowska, Anna",
+    "Krupa, Agnieszka",
+    "Florence, Jon M",
+    "Matute-Bello, Gustavo"
+  ],
+  "units": [
+    {
+      "text": "BACKGROUND: Exposure to mechanical ventilation enhances lung injury in response to various stimuli, such as bacterial endotoxin (LPS). The Fas/FasL system is a receptor ligand system that has dual pro-apoptotic and pro-inflammatory functions and has been implicated in the pathogenesis of lung injury. In this study we test the hypothesis that a functioning Fas/FasL system is required for the development of lung injury in mechanically ventilated mice.",
+      "section_title": "BACKGROUND",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "mechanical ventilation"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "lung injury"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "bacterial endotoxin"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "LPS"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Fas/FasL system"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "pro-apoptotic"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "pro-inflammatory"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "mechanically ventilated mice"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "mechanical ventilation",
+          "tail": "lung injury",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "bacterial endotoxin",
+          "tail": "LPS",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "Fas/FasL system",
+          "tail": "pro-apoptotic",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "Fas/FasL system",
+          "tail": "pro-inflammatory",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "Fas/FasL system",
+          "tail": "lung injury",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "mechanically ventilated mice",
+          "tail": "lung injury",
+          "relation_type": "OCCURS_IN"
+        }
+      ]
+    },
+    {
+      "text": "METHODS: C57BL/6 (B6) and Fas-deficient lpr mice were exposed to either intra-tracheal PBS followed by spontaneous breathing or intra-tracheal LPS followed by four hours mechanical ventilation with tidal volumes of 10 mL/kg, respiratory rate of 150 breaths per minute, inspired oxygen 0.21 and positive end expiratory pressure (PEEP) of 3 cm of water.",
+      "section_title": "METHODS",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "C57BL/6"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "B6"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Fas-deficient lpr mice"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "intra-tracheal PBS"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "intra-tracheal LPS"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "mechanical ventilation"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "tidal volumes"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "respiratory rate"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "inspired oxygen"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "positive end expiratory pressure"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "PEEP"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "C57BL/6",
+          "tail": "B6",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "Fas-deficient lpr mice",
+          "tail": "B6",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "intra-tracheal LPS",
+          "tail": "mechanical ventilation",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "mechanical ventilation",
+          "tail": "tidal volumes",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "mechanical ventilation",
+          "tail": "respiratory rate",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "mechanical ventilation",
+          "tail": "inspired oxygen",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "mechanical ventilation",
+          "tail": "positive end expiratory pressure",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "positive end expiratory pressure",
+          "tail": "PEEP",
+          "relation_type": "IS_TYPE_OF"
+        }
+      ]
+    },
+    {
+      "text": "RESULTS: Compared with the B6 mice, the lpr mice showed attenuation of the neutrophilic response as measured by decreased numbers of BAL neutrophils and lung myeloperoxidase activity. Interestingly, the B6 and lpr mice had similar concentrations of pro-inflammatory cytokines, including CXCL1 (KC), and similar measurements of permeability and apoptosis. However, the B6 mice showed greater deposition of anti-KC:KC immune complexes in the lungs, as compared with the lpr mice.",
+      "section_title": "RESULTS",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "B6"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "lpr"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "neutrophilic response"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "BAL neutrophils"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "lung myeloperoxidase activity"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "pro-inflammatory cytokines"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "CXCL1 (KC)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "permeability"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "apoptosis"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "anti-KC:KC immune complexes"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "B6",
+          "tail": "neutrophilic response",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "lpr",
+          "tail": "neutrophilic response",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "neutrophilic response",
+          "tail": "BAL neutrophils",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "neutrophilic response",
+          "tail": "lung myeloperoxidase activity",
+          "relation_type": "OCCURS_IN"
+        },
+        {
+          "head": "neutrophilic response",
+          "tail": "pro-inflammatory cytokines",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "pro-inflammatory cytokines",
+          "tail": "CXCL1 (KC)",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "neutrophilic response",
+          "tail": "permeability",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "neutrophilic response",
+          "tail": "apoptosis",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "B6",
+          "tail": "anti-KC:KC immune complexes",
+          "relation_type": "IS_RELATED_TO"
+        },
+        {
+          "head": "lpr",
+          "tail": "anti-KC:KC immune complexes",
+          "relation_type": "IS_RELATED_TO"
+        }
+      ]
+    },
+    {
+      "text": "CONCLUSIONS: We conclude that a functioning Fas/FasL system is required for full neutrophilic response to LPS in mechanically ventilated mice.",
+      "section_title": "CONCLUSIONS",
+      "mentions": [
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "Fas/FasL system"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "neutrophilic response"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "LPS"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "mechanically ventilated mice"
+        }
+      ],
+      "relationships": null
+    }
+  ],
+  "source": null,
+  "doc_type": "research_article"
+}

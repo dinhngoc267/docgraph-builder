@@ -1,0 +1,382 @@
+{
+  "title": "Triple Combination of Amantadine, Ribavirin, and Oseltamivir Is Highly Active and Synergistic against Drug Resistant Influenza Virus Strains In Vitro",
+  "authors": [
+    "Nguyen, Jack T.",
+    "Hoopes, Justin D.",
+    "Le, Minh H.",
+    "Smee, Donald F.",
+    "Patick, Amy K.",
+    "Faix, Dennis J.",
+    "Blair, Patrick J.",
+    "de Jong, Menno D.",
+    "Prichard, Mark N.",
+    "Went, Gregory T."
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "2009 Influenza A/H1N1 virus"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "2009 H1N1"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "World Health Organization"
+        },
+        {
+          "type_": "DATE",
+          "text": "21(st) century"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "2009 Influenza A/H1N1 virus",
+          "tail": "2009 H1N1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "2009 H1N1",
+          "tail": "World Health Organization",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "World Health Organization",
+          "tail": "21(st) century",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "The rapid emergence and subsequent spread of the novel 2009 Influenza A/H1N1 virus (2009 H1N1) has prompted the World Health Organization to declare the first pandemic of the 21(st) century, highlighting the threat of influenza to public health and healthcare systems."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "MEDICATION",
+          "text": "influenza antivirals"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "adamantanes"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "neuraminidase inhibitors"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "influenza antivirals",
+          "tail": "adamantanes",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "influenza antivirals",
+          "tail": "neuraminidase inhibitors",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "adamantanes",
+          "tail": "neuraminidase inhibitors",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "influenza antivirals",
+          "tail": "influenza antivirals",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "2",
+      "text": "Widespread resistance to both classes of influenza antivirals (adamantanes and neuraminidase inhibitors) occurs in both pandemic and seasonal viruses, rendering these drugs to be of marginal utility in the treatment modality."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "2009 H1N1"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "H3N2"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "seasonal H1N1"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "adamantanes"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "rimantadine"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "amantadine"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "oseltamivir"
+        },
+        {
+          "type_": "METHOD",
+          "text": "neuraminidase inhibitor (NAI)"
+        }
+      ],
+      "relationships": [],
+      "section_title": null,
+      "unit_id": "3",
+      "text": "Worldwide, virtually all 2009 H1N1 and seasonal H3N2 strains are resistant to the adamantanes (rimantadine and amantadine), and the majority of seasonal H1N1 strains are resistant to oseltamivir, the most widely prescribed neuraminidase inhibitor (NAI)."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "triple combination antiviral drug (TCAD) regimen"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "drug-resistant seasonal and 2009 H1N1 influenza viruses"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "triple combination antiviral drug (TCAD) regimen",
+          "tail": "drug-resistant seasonal and 2009 H1N1 influenza viruses",
+          "relation_type": "TREATS"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "4",
+      "text": "To address the need for more effective therapy, we evaluated the in vitro activity of a triple combination antiviral drug (TCAD) regimen composed of drugs with different mechanisms of action against drug-resistant seasonal and 2009 H1N1 influenza viruses."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "MEDICATION",
+          "text": "Amantadine"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "ribavirin"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "oseltamivir"
+        },
+        {
+          "type_": "METHOD",
+          "text": "in vitro infection model"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "MDCK"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Amantadine",
+          "tail": "in vitro infection model",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "ribavirin",
+          "tail": "in vitro infection model",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "oseltamivir",
+          "tail": "in vitro infection model",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "in vitro infection model",
+          "tail": "MDCK",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "5",
+      "text": "Amantadine, ribavirin, and oseltamivir, alone and in combination, were tested against amantadine- and oseltamivir-resistant influenza A viruses using an in vitro infection model in MDCK cells."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "triple combination"
+        },
+        {
+          "type_": "METHOD",
+          "text": "double combination"
+        },
+        {
+          "type_": "RESULT",
+          "text": "significantly greater than the synergy of any double combination tested"
+        },
+        {
+          "type_": "RESULT",
+          "text": "P<0.05"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "triple combination",
+          "tail": "double combination",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "significantly greater than the synergy of any double combination tested",
+          "tail": "P<0.05",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "6",
+      "text": "Our data show that the triple combination was highly synergistic against drug-resistant viruses, and the synergy of the triple combination was significantly greater than the synergy of any double combination tested (P<0.05), including the combination of two NAIs."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "MEDICATION",
+          "text": "amantadine"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "oseltamivir"
+        },
+        {
+          "type_": "METHOD",
+          "text": "TCAD regimen"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "amantadine- and oseltamivir-resistant viruses"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "amantadine",
+          "tail": "TCAD regimen",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "oseltamivir",
+          "tail": "TCAD regimen",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "TCAD regimen",
+          "tail": "amantadine- and oseltamivir-resistant viruses",
+          "relation_type": "TREATS"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "7",
+      "text": "Surprisingly, amantadine and oseltamivir contributed to the antiviral activity of the TCAD regimen against amantadine- and oseltamivir-resistant viruses, respectively, at concentrations where they had no activity as single agents, and at concentrations that were clinically achievable."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "MEDICATION",
+          "text": "amantadine"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "ribavirin"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "oseltamivir"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "2009 H1N1"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "amantadine",
+          "tail": "2009 H1N1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "ribavirin",
+          "tail": "2009 H1N1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "oseltamivir",
+          "tail": "2009 H1N1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "amantadine",
+          "tail": "ribavirin",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "amantadine",
+          "tail": "oseltamivir",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "ribavirin",
+          "tail": "oseltamivir",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "8",
+      "text": "Our data demonstrate that the TCAD regimen composed of amantadine, ribavirin, and oseltamivir is highly synergistic against resistant viruses, including 2009 H1N1."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "TCAD regimen"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "influenza antivirals"
+        },
+        {
+          "type_": "RESULT",
+          "text": "highly active antiviral therapy"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "seasonal and pandemic influenza"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "TCAD regimen",
+          "tail": "influenza antivirals",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "influenza antivirals",
+          "tail": "highly active antiviral therapy",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "highly active antiviral therapy",
+          "tail": "seasonal and pandemic influenza",
+          "relation_type": "TREATS"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "9",
+      "text": "The TCAD regimen overcomes baseline drug resistance to both classes of approved influenza antivirals, and thus may represent a highly active antiviral therapy for seasonal and pandemic influenza."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

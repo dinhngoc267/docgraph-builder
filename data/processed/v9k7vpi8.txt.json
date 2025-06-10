@@ -1,0 +1,69 @@
+{
+  "title": "West Nile Virus Infection in Killer Whale, Texas, USA, 2007",
+  "authors": [
+    "St. Leger, Judy",
+    "Wu, Guang",
+    "Anderson, Mark",
+    "Dalton, Les",
+    "Nilson, Erika",
+    "Wang, David"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DATE",
+          "text": "2007"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "nonsuppurative encephalitis"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "West Nile virus (WNV)"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "WNV"
+        },
+        {
+          "type_": "METHOD",
+          "text": "reverse transcription PCR"
+        },
+        {
+          "type_": "METHOD",
+          "text": "Immunohistochemistry"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "nonsuppurative encephalitis",
+          "tail": "West Nile virus (WNV)",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "WNV",
+          "tail": "reverse transcription PCR",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "WNV",
+          "tail": "Immunohistochemistry",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "2007",
+          "tail": "nonsuppurative encephalitis",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "In 2007, nonsuppurative encephalitis was identified in a killer whale at a Texas, USA, marine park. Panviral DNA microarray of brain tissue suggested West Nile virus (WNV); WNV was confirmed by reverse transcription PCR and sequencing. Immunohistochemistry demonstrated WNV antigen within neurons. WNV should be considered in cases of encephalitis in cetaceans."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

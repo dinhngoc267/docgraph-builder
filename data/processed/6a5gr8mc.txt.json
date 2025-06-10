@@ -1,0 +1,63 @@
+{
+  "title": "Sequence Analysis of Feline Coronaviruses and the Circulating Virulent/Avirulent Theory",
+  "authors": [
+    "Chang, Hui-Wen",
+    "Egberink, Herman F.",
+    "Rottier, Peter J.M."
+  ],
+  "units": [
+    {
+      "mentions": [],
+      "relationships": [],
+      "section_title": null,
+      "unit_id": null,
+      "text": "Content: "
+    },
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "feline coronaviruses"
+        }
+      ],
+      "relationships": [],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "In this study, we investigate the genomic sequences of feline coronaviruses..."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "RESULT",
+          "text": "a tension between virulent and avirulent strains"
+        }
+      ],
+      "relationships": [],
+      "section_title": null,
+      "unit_id": "2",
+      "text": "Our findings suggest a tension between virulent and avirulent strains..."
+    },
+    {
+      "mentions": [],
+      "relationships": null,
+      "section_title": null,
+      "unit_id": "3",
+      "text": "Table 1 summarizes the differences between the two strains..."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "feline coronaviruses"
+        }
+      ],
+      "relationships": null,
+      "section_title": null,
+      "unit_id": "4",
+      "text": "Figure 1 illustrates the phylogenetic tree of feline coronaviruses..."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

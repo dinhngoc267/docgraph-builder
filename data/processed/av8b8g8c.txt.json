@@ -1,0 +1,95 @@
+{
+  "title": "Machupo Virus Glycoprotein Determinants for Human Transferrin Receptor 1 Binding and Cell Entry",
+  "authors": [
+    "Radoshitzky, Sheli R.",
+    "Longobardi, Lindsay E.",
+    "Kuhn, Jens H.",
+    "Retterer, Cary",
+    "Dong, Lian",
+    "Clester, Jeremiah C.",
+    "Kota, Krishna",
+    "Carra, John",
+    "Bavari, Sina"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "hemorrhagic fever"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "MACV GP1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "TfR1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "GP1"
+        },
+        {
+          "type_": "METHOD",
+          "text": "evaluate the functional significance"
+        },
+        {
+          "type_": "RESULT",
+          "text": "essential"
+        },
+        {
+          "type_": "RESULT",
+          "text": "important"
+        },
+        {
+          "type_": "RESULT",
+          "text": "expendable"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "hemorrhagic fever",
+          "tail": "MACV GP1",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "MACV GP1",
+          "tail": "TfR1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "GP1",
+          "tail": "TfR1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "TfR1",
+          "tail": "essential",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "TfR1",
+          "tail": "important",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "TfR1",
+          "tail": "expendable",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "evaluate the functional significance",
+          "tail": "MACV GP1",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "Machupo virus (MACV) is a highly pathogenic New World arenavirus that causes hemorrhagic fever in humans. MACV, as well as other pathogenic New World arenaviruses, enter cells after their GP1 attachment glycoprotein binds to their cellular receptor, transferrin receptor 1 (TfR1). TfR1 residues essential for this interaction have been described, and a co-crystal of MACV GP1 bound to TfR1 suggests GP1 residues important for this association. We created MACV GP1 variants and tested their effect on TfR1 binding and virus entry to evaluate the functional significance of some of these and additional residues in human and simian cells. We found residues R111, D123, Y122, and F226 to be essential, D155, and P160 important, and D114, S116, D140, and K169 expendable for the GP1-TfR1 interaction and MACV entry. Several MACV GP1 residues that are critical for the interaction with TfR1 are conserved among other New World arenaviruses, indicating a common basis of receptor interaction. Our findings also open avenues for the rational development of viral entry inhibitors."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

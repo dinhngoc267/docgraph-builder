@@ -1,0 +1,226 @@
+{
+  "title": "Analysis of Memory B Cell Responses and Isolation of Novel Monoclonal Antibodies with Neutralizing Breadth from HIV-1-Infected Individuals",
+  "authors": [
+    "Corti, Davide",
+    "Langedijk, Johannes P. M.",
+    "Hinz, Andreas",
+    "Seaman, Michael S.",
+    "Vanzetta, Fabrizia",
+    "Fernandez-Rodriguez, Blanca M.",
+    "Silacci, Chiara",
+    "Pinna, Debora",
+    "Jarrossay, David",
+    "Balla-Jhagjhoorsingh, Sunita",
+    "Willems, Betty",
+    "Zekveld, Maria J.",
+    "Dreja, Hanna",
+    "O'Sullivan, Eithne",
+    "Pade, Corinna",
+    "Orkin, Chloe",
+    "Jeffs, Simon A.",
+    "Montefiori, David C.",
+    "Davis, David",
+    "Weissenhorn, Winfried",
+    "McKnight, \u00c1ine",
+    "Heeney, Jonathan L.",
+    "Sallusto, Federica",
+    "Sattentau, Quentin J.",
+    "Weiss, Robin A.",
+    "Lanzavecchia, Antonio"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "HIV-1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "human monoclonal antibodies"
+        },
+        {
+          "type_": "METHOD",
+          "text": "neutralize"
+        },
+        {
+          "type_": "RESULT",
+          "text": "effective antibody-based vaccine"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "HIV-1",
+          "tail": "human monoclonal antibodies",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "human monoclonal antibodies",
+          "tail": "neutralize",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "human monoclonal antibodies",
+          "tail": "effective antibody-based vaccine",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "neutralize",
+          "tail": "HIV-1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "effective antibody-based vaccine",
+          "tail": "human monoclonal antibodies",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "BACKGROUND",
+      "unit_id": null,
+      "text": "The isolation of human monoclonal antibodies (mAbs) that neutralize a broad spectrum of primary HIV-1 isolates and the characterization of the human neutralizing antibody B cell response to HIV-1 infection are important goals that are central to the design of an effective antibody-based vaccine."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "IgG(+) memory B cells"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HIV-1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "mAbs"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "Env"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "HJ16"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "gp120"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "b12"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "HGN194"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "V3 crown"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "HK20"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "HR-1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "gp41"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "IgG(+) memory B cells",
+          "tail": "HIV-1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HIV-1",
+          "tail": "Env",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HJ16",
+          "tail": "gp120",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HJ16",
+          "tail": "HIV-1",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "b12",
+          "tail": "gp120",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HGN194",
+          "tail": "V3 crown",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HK20",
+          "tail": "gp41",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "METHODS AND FINDINGS",
+      "unit_id": null,
+      "text": "We immortalized IgG(+) memory B cells from individuals infected with diverse clades of HIV-1 and selected on the basis of plasma neutralization profiles that were cross-clade and relatively potent. Culture supernatants were screened using various recombinant forms of the envelope glycoproteins (Env) in multiple parallel assays. We isolated 58 mAbs that were mapped to different Env surfaces, most of which showed neutralizing activity. One mAb in particular (HJ16) specific for a novel epitope proximal to the CD4 binding site on gp120 selectively neutralized a multi-clade panel of Tier-2 HIV-1 pseudoviruses, and demonstrated reactivity that was comparable in breadth, but distinct in neutralization specificity, to that of the other CD4 binding site-specific neutralizing mAb b12. A second mAb (HGN194) bound a conserved epitope in the V3 crown and neutralized all Tier-1 and a proportion of Tier-2 pseudoviruses tested, irrespective of clade. A third mAb (HK20) with broad neutralizing activity, particularly as a Fab fragment, recognized a highly conserved epitope in the HR-1 region of gp41, but showed striking assay-dependent selectivity in its activity."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "screening methods"
+        },
+        {
+          "type_": "RESULT",
+          "text": "large proportion of memory B cells can be isolated"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "mAbs"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "HIV-1"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "HIV-1 neutralizing antibodies"
+        },
+        {
+          "type_": "METHOD",
+          "text": "template-based vaccine design"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "screening methods",
+          "tail": "large proportion of memory B cells can be isolated",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "mAbs",
+          "tail": "HIV-1 neutralizing antibodies",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "HIV-1 neutralizing antibodies",
+          "tail": "template-based vaccine design",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "CONCLUSIONS",
+      "unit_id": null,
+      "text": "This study reveals that by using appropriate screening methods, a large proportion of memory B cells can be isolated that produce mAbs with HIV-1 neutralizing activity. Three of these mAbs show unusual breadth of neutralization and therefore add to the current panel of HIV-1 neutralizing antibodies with potential for passive protection and template-based vaccine design."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

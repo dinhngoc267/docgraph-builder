@@ -1,0 +1,235 @@
+{
+  "title": "Regulation of the apoptosis-inducing kinase DRAK2 by cyclooxygenase-2 in colorectal cancer",
+  "authors": [
+    "Doherty, G A",
+    "Byrne, S M",
+    "Austin, S C",
+    "Scully, G M",
+    "Sadlier, D M",
+    "Neilan, T G",
+    "Kay, E W",
+    "Murray, F E",
+    "Fitzgerald, D J"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "colorectal cancer"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "CRC"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "Cyclooxygenase-2"
+        },
+        {
+          "type_": "METHOD",
+          "text": "Selective COX-2 inhibition"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Cyclooxygenase-2",
+          "tail": "colorectal cancer",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "Selective COX-2 inhibition",
+          "tail": "CRC",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "Selective COX-2 inhibition",
+          "tail": "colorectal cancer",
+          "relation_type": "TREATS"
+        }
+      ],
+      "section_title": "BACKGROUND",
+      "unit_id": null,
+      "text": "Cyclooxygenase-2 (COX-2) is over-expressed in colorectal cancer (CRC), rendering tumour cells resistant to apoptosis. Selective COX-2 inhibition is effective in CRC prevention, although having adverse cardiovascular effects, thus focus has shifted to downstream pathways."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "COX-2"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "DRAK2"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "DAP kinase-related apoptosis-inducing kinase 2"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "STK17\u03b2"
+        },
+        {
+          "type_": "METHOD",
+          "text": "qRT-PCR"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "HCA7"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "CRC"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "COX-2",
+          "tail": "HCA7",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "COX-2",
+          "tail": "DRAK2",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "DRAK2",
+          "tail": "DAP kinase-related apoptosis-inducing kinase 2",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "DRAK2",
+          "tail": "STK17\u03b2",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "COX-2",
+          "tail": "qRT-PCR",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "COX-2",
+          "tail": "CRC",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": "METHODS",
+      "unit_id": null,
+      "text": "Microarray experiments identified genes regulated by COX-2 in HCA7 CRC cells. In vitro and in vivo regulation of DRAK2 (DAP kinase-related apoptosis-inducing kinase 2 or STK17\u03b2, an apoptosis-inducing kinase) by COX-2 was validated by qRT-PCR."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "DRAK2"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "COX-2"
+        },
+        {
+          "type_": "MEDICATION",
+          "text": "rofecoxib"
+        },
+        {
+          "type_": "DISEASE",
+          "text": "CRC"
+        },
+        {
+          "type_": "RESULT",
+          "text": "4.4-fold increase"
+        },
+        {
+          "type_": "RESULT",
+          "text": "2.5-fold increase"
+        },
+        {
+          "type_": "DATE",
+          "text": "4 h"
+        },
+        {
+          "type_": "DATE",
+          "text": "n=10"
+        },
+        {
+          "type_": "DATE",
+          "text": "n=5"
+        },
+        {
+          "type_": "RESULT",
+          "text": "P=0.001"
+        },
+        {
+          "type_": "RESULT",
+          "text": "P=0.03"
+        },
+        {
+          "type_": "RESULT",
+          "text": "P=0.01"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "DRAK2",
+          "tail": "COX-2",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "COX-2",
+          "tail": "rofecoxib",
+          "relation_type": "TREATS"
+        },
+        {
+          "head": "n=10",
+          "tail": "COX-2",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "n=5",
+          "tail": "rofecoxib",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "CRC",
+          "tail": "rofecoxib",
+          "relation_type": "TREATS"
+        }
+      ],
+      "section_title": "RESULTS",
+      "unit_id": null,
+      "text": "Inhibition of COX-2 induced apoptosis and enhanced DRAK2 expression in HCA7 cells (4.4-fold increase at 4 h by qRT-PCR, P=0.001), an effect prevented by co-administration of PGE(2). DRAK2 levels were suppressed in a panel of human colorectal tumours (n=10) compared to normal mucosa, and showed inverse correlation with COX-2 expression (R=\u22120.68, R(2)=0.46, P=0.03). Administration of the selective COX-2 inhibitor rofecoxib to patients with CRC (n=5) induced DRAK2 expression in tumours (2.5-fold increase, P=0.01). In vitro silencing of DRAK2 by RNAi enhanced CRC cell survival following COX-2 inhibitor treatment."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "PROTEIN",
+          "text": "DRAK2"
+        },
+        {
+          "type_": "PROTEIN",
+          "text": "COX-2"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "COX-2",
+          "tail": "DRAK2",
+          "relation_type": "CAUSES"
+        },
+        {
+          "head": "COX-2",
+          "tail": "DRAK2",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": "CONCLUSION",
+      "unit_id": null,
+      "text": "DRAK2 is a serine\u2013threonine kinase implicated in the regulation of apoptosis and is negatively regulated by COX-2 in vitro and in vivo, suggesting a novel mechanism for the effect of COX-2 on cancer cell survival."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}

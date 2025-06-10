@@ -1,0 +1,83 @@
+{
+  "title": "The Multifaceted Poliovirus 2A Protease: Regulation of Gene Expression by Picornavirus Proteases",
+  "authors": [
+    "Castell\u00f3, Alfredo",
+    "\u00c1lvarez, Enrique",
+    "Carrasco, Luis"
+  ],
+  "units": [
+    {
+      "text": "After entry into animal cells, most viruses hijack essential components involved in gene expression. This is the case of poliovirus, which abrogates cellular translation soon after virus internalization. Abrogation is achieved by cleavage of both eIF4GI and eIF4GII by the viral protease 2A. Apart from the interference of poliovirus with cellular protein synthesis, other gene expression steps such as RNA and protein trafficking between nucleus and cytoplasm are also altered. Poliovirus 2A(pro) is capable of hydrolyzing components of the nuclear pore, thus preventing an efficient antiviral response by the host cell. Here, we compare in detail poliovirus 2A(pro) with other viral proteins (from picornaviruses and unrelated families) as regard to their activity on key host factors that control gene expression. It is possible that future analyses to determine the cellular proteins targeted by 2A(pro) will uncover other cellular functions ablated by poliovirus infection. Further understanding of the cellular proteins hydrolyzed by 2A(pro) will add further insight into the molecular mechanism by which poliovirus and other viruses interact with the host cell.",
+      "section_title": null,
+      "mentions": [
+        {
+          "type_": "DISEASE",
+          "text": "poliovirus"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "eIF4GI"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "eIF4GII"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "2A"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "nuclear pore"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "2A(pro)"
+        },
+        {
+          "type_": "BIOMEDICAL_TERM",
+          "text": "picornaviruses"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "poliovirus",
+          "tail": "eIF4GI",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "poliovirus",
+          "tail": "eIF4GII",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "poliovirus",
+          "tail": "2A",
+          "relation_type": "INVOLVES"
+        },
+        {
+          "head": "poliovirus",
+          "tail": "picornaviruses",
+          "relation_type": "IS_TYPE_OF"
+        },
+        {
+          "head": "2A(pro)",
+          "tail": "poliovirus",
+          "relation_type": "IS_PART_OF"
+        },
+        {
+          "head": "2A(pro)",
+          "tail": "nuclear pore",
+          "relation_type": "IS_LOCATED_IN"
+        },
+        {
+          "head": "2A(pro)",
+          "tail": "nuclear pore",
+          "relation_type": "INVOLVES"
+        }
+      ]
+    }
+  ],
+  "source": null,
+  "doc_type": null
+}

@@ -1,0 +1,154 @@
+{
+  "title": "Do expert assessments converge? An exploratory case study of evaluating and managing a blood supply risk",
+  "authors": [
+    "Eyles, John",
+    "Heddle, Nancy",
+    "Webert, Kathryn",
+    "Arnold, Emmy",
+    "McCurdy, Bronwen"
+  ],
+  "units": [
+    {
+      "mentions": [
+        {
+          "type_": "ORGANIZATION",
+          "text": "Canada"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "Canada",
+          "tail": "Canada",
+          "relation_type": "MENTIONED_IN"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "1",
+      "text": "BACKGROUND: Examining professional assessments of a blood product recall/withdrawal and its implications for risk and public health, the paper introduces ideas about perceptions of minimal risk and its management. It also describes the context of publicly funded blood transfusion in Canada and the withdrawal event that is the basis of this study."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "multi-level sampling framework"
+        },
+        {
+          "type_": "METHOD",
+          "text": "risk management heuristics"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "administration"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "medicine"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "blood supply"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "laboratory services"
+        },
+        {
+          "type_": "ORGANIZATION",
+          "text": "national level"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "administration",
+          "tail": "multi-level sampling framework",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "medicine",
+          "tail": "multi-level sampling framework",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "blood supply",
+          "tail": "multi-level sampling framework",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "laboratory services",
+          "tail": "multi-level sampling framework",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "risk management heuristics",
+          "tail": "multi-level sampling framework",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "blood supply",
+          "tail": "national level",
+          "relation_type": "ASSOCIATED_WITH"
+        },
+        {
+          "head": "risk management heuristics",
+          "tail": "blood supply",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "2",
+      "text": "METHODS: Interviews with 45 experts from administration, medicine, blood supply, laboratory services and risk assessment took place using a multi-level sampling framework in the aftermath of the recall. These experts either directly dealt with the withdrawal or were involved in the management of the blood supply at the national level. Data from these interviews were coded in NVivo for analysis and interpretation. Analytically, data were interpreted to derive typifications to relate interview responses to risk management heuristics."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "RESULT",
+          "text": "RESULTS"
+        },
+        {
+          "type_": "RESULT",
+          "text": "patient safety"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "RESULTS",
+          "tail": "patient safety",
+          "relation_type": "MENTIONED_IN"
+        },
+        {
+          "head": "patient safety",
+          "tail": "RESULTS",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "3",
+      "text": "RESULTS: While all those interviewed agreed on the importance of patient safety, differences in the ways in which the risk was contextualized and explicated were discerned. Risk was seen in terms of patient safety, liability or precaution. These different risk logics are illustrated by selected quotations."
+    },
+    {
+      "mentions": [
+        {
+          "type_": "METHOD",
+          "text": "managing blood risk"
+        },
+        {
+          "type_": "METHOD",
+          "text": "formal and safety case approaches"
+        }
+      ],
+      "relationships": [
+        {
+          "head": "managing blood risk",
+          "tail": "formal and safety case approaches",
+          "relation_type": "ASSOCIATED_WITH"
+        }
+      ],
+      "section_title": null,
+      "unit_id": "4",
+      "text": "CONCLUSIONS: Expert assessments did not fully converge and it is possible that these different risk logics and discourses may affect the risk management process more generally, although not necessarily in a negative way. Patient safety is not to be compromised but management of blood risk in publicly funded systems may vary. We suggest ways of managing blood risk using formal and safety case approaches."
+    }
+  ],
+  "publication_date": null,
+  "source": null,
+  "doc_type": null
+}
