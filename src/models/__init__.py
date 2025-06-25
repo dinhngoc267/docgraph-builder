@@ -1,6 +1,8 @@
-from .ontology import Ontology, SchemaDesign
 from .enums import AgentName
-from .deps import MyDeps
+from .deps import Dependency
+from .domain_ontology import DomainOntology, BaseMention, BaseRelation
+from .doc_schema import BaseDoc, BaseDocUnit
+
 from ._utils import build_dynamic_relation_model, create_model_from_schema
 
 from pydantic import BaseModel, Field
@@ -8,13 +10,15 @@ from pydantic import BaseModel, Field
 from typing import Optional
 
 __all__ = [
-    "Ontology",
+    "DomainOntology",
     "AgentName",
     "HumanReview",
-    "SchemaDesign",
     "build_dynamic_relation_model",
     "create_model_from_schema",
-    "MyDeps"
+    "Dependency",
+    "BaseDoc",
+    "BaseDocUnit",
+    "BaseMention"
 ]
 
 class HumanReview(BaseModel):

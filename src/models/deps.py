@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 
-
 @dataclass
-class MyDeps:
-    data_dir: str
+class Dependency:
+    data_dir: str = None
     sample_data_length: int = 10000

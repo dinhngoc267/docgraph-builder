@@ -1,9 +1,10 @@
 import json
-from dataclasses import dataclass
+import random
+from dataclasses import dataclass, Field
 
 from pydantic_graph import BaseNode, GraphRunContext, End
-from typing import Literal, get_args
-from src.models import HumanReview
+from typing import Literal, get_args, List
+from src.models import HumanReview, DomainOntology, BaseDoc, BaseDocUnit
 from src.agents import (
     create_doc_distiller_agent,
     create_mention_detection_agent,
@@ -12,33 +13,47 @@ from src.agents import (
 import glob
 import os
 from tqdm import tqdm
+from pydantic import create_model, Field
 
-from src.models import AgentName, create_model_from_schema, build_dynamic_relation_model
-
+from src.models import (
+    AgentName,
+    Dependency,
+    BaseMention,
+    create_model_from_schema,
+    build_dynamic_relation_model
+)
 from src._utils import task_group_gather
 
 
 # @dataclass(init=False)
-class InformationExtractionNode(BaseNode):
+class InformationExtractionNode(BaseNode[None, Dependency, None]):
 
-    def __init__(self, data_dir: str, schema: dict, **kwargs):
+    def __init__(self,
+                 data_dir: str,
+                 domain_ontology: DomainOntology,
+                 doc_schema: BaseDoc,
+                 **kwargs):
         super().__init__(**kwargs)
+
+        self.domain_ontology = domain_ontology
+        self.doc_model = doc_schema
 
         self.data_dir = data_dir
 
-        self.relation_types = create_model_from_schema(schema, "RelationType")
-        self.entity_types = create_model_from_schema(schema, "EntityType")
+        self.entity_types = Literal[tuple([item.name for item in self.domain_ontology.entity_types])]
+        self.relation_types = Literal[tuple([item.name for item in self.domain_ontology.relationship_types])]
 
-        self.doc_model = create_model_from_schema(schema, "Doc")
-
-        self.mention_model = create_model_from_schema(schema, "Mention")
+        self.mention_model = create_model(
+            "Mention",
+            __base__= BaseMention,
+            entity_type=self.entity_types,
+        )
 
         self.doc_distiller_agent = create_doc_distiller_agent(output_model=self.doc_model, schema="")
         self.mention_detection_agent = create_mention_detection_agent(self.mention_model,
                                                                       entity_types=list(get_args(self.entity_types)))
 
-
-    async def run_task(self, data: str, output_path: str):
+    async def run_task(self, ctx: GraphRunContext[None, Dependency], data: str, output_path: str):
         doc_result = await task_group_gather(
             [
                 lambda: self.doc_distiller_agent.run(
@@ -47,9 +62,11 @@ class InformationExtractionNode(BaseNode):
             ],
             timeout_seconds=1000,
         )
+
         doc_result = doc_result[0]
-        doc = doc_result.output
-        doc_units = doc.units
+        doc: BaseDoc = doc_result.output
+
+        doc_units: List[BaseDocUnit] = doc.units
 
         mentions_result = await task_group_gather(
             [
@@ -66,58 +83,72 @@ class InformationExtractionNode(BaseNode):
             doc_units[i].mentions = mentions_result[i].output
 
         relation_extraction_agents = []
-        for idx, item in enumerate(mentions_result):
-            if len(item.output) > 0:
-                relation_model = build_dynamic_relation_model(mention_strings=[mention.text for mention in item.output],
-                                                              relation_types=self.relation_types)
+        relation_indices = []
+        for idx, mention_list in enumerate(mentions_result):
+            if len(mention_list.output) > 0:
+                mention_strings = [
+                    str(item) for item in mention_list.output
+                ]
+
+                relation_model = build_dynamic_relation_model(mention_strings=mention_strings,
+                                                              relation_types=list(get_args(self.relation_types)))
 
                 relation_extraction_agents.append(
                     create_relation_extraction_agent(relation_model,
-                                                     mention_strings=[mention.text for mention in item.output],
+                                                     constraints=str(self.domain_ontology.relationship_types),
+                                                     mention_strings=mention_strings,
                                                      relation_types=list(get_args(self.relation_types)))
                 )
 
+                relation_indices.append(idx)
+
         relations_result = await task_group_gather(
             [
-                lambda i=i: relation_extraction_agents[i].run(doc_units[i].text)
-                for i in range(len(doc_units))
+                lambda i=i: relation_extraction_agents[i].run(
+                    user_prompt=doc_units[relation_indices[i]].text,
+                    deps=self.domain_ontology,
+                    model_settings={"parallel_tool_calls": False}
+                )
+                for i in range(len(relation_extraction_agents))
             ],
             timeout_seconds=180
         )
 
-        for i in range(len(doc_units)):  # (non_empty_indices):
+        for rel_idx, doc_idx in enumerate(relation_indices):
             try:
-                doc_units[i].relationships = relations_result[i].output
+                doc_units[doc_idx].relationships = relations_result[rel_idx].output
             except:
-                doc_units[i].relationships = None
+                doc_units[doc_idx].relationships = None
+
         doc.units = doc_units
 
         with open(output_path, "w") as f:
             json.dump(doc.dict(), f, indent=2)
 
+    async def run(self, ctx: GraphRunContext[None, Dependency]) -> End:
 
-    async def run(self, ctx: GraphRunContext) -> End:
-
-        files = glob.glob(os.path.join(self.data_dir, "*.txt"))
+        files = glob.glob("/home/ju/PycharmProjects/automated-docgraph-construction/data/cord-19/articles/*.txt")
 
         args = []
         for file in tqdm(files):
-            with open(file,"r") as f:
+            with open(file, "r") as f:
                 basename = os.path.basename(file)
                 sample_data = f.read()
                 output_path = f"data/processed/{basename}.json"
 
                 args.append([sample_data, output_path])
 
-        bs=10
-        for i in range(0,len(args),bs):
+        bs = 10
+        for i in range(0, len(args), bs):
             _ = await task_group_gather(
                 [
-                    (lambda sample_data=sample_data, output_path=output_path: self.run_task(data=sample_data,
-                                                                                            output_path=output_path))
-                    for sample_data, output_path in args[i:i+bs]
+                    (lambda sample_data=sample_data, output_path=output_path: self.run_task(
+                        ctx=ctx,
+                        data=sample_data,
+                        output_path=output_path))
+                    for sample_data, output_path in args[i:i + bs]
                 ],
                 timeout_seconds=120,
-        )
+            )
 
         return End(None)

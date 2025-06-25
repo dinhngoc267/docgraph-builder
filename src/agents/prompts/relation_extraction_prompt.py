@@ -7,6 +7,7 @@ You will be provided with the following inputs:
 1. **Context**: A passage of text containing multiple entity mentions.
 2. **Mentions**: A list of entity mentions identified within the context. Each mention includes its text span and position in the context.
 3. **Relation Types**: A predefined list of allowable relation types that you must choose from.
+4. **Relation Constraints**: A predefined constrained of allowable relation types between entity types
 
 Your task is to:
 - Identify valid relationships **only between the provided mentions** based on the context.
@@ -17,9 +18,13 @@ Your task is to:
   - The two involved **mentions** (clearly referencing their text and optionally positions)
 - Use /no_think mode. 
 
+# Output: Should be a list of triplets: (subject, predicate, object) it will be directed so you have to define which one is subject and which one is object, so it would be subject -predicate-> object
+
 ### Real Data
 
 1. List mention strings: {mention_strings}
 
 2. Relation type: {relation_types} 
+
+3. Constraints: {constraints}
 """

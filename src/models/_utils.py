@@ -5,9 +5,10 @@ from typing_extensions import Literal
 from pydantic import BaseModel, Field, create_model
 from typing import List, Any, Dict, Optional
 from enum import Enum
+from src.models import BaseRelation
 
 def build_dynamic_relation_model(mention_strings: List[str],
-                                 relation_types: Any) -> Type[BaseModel]:
+                                 relation_types: List[str]) -> Type[BaseModel]:
     if mention_strings:
         mention_literals = Literal[tuple(mention_strings)]
         head_type = mention_literals
@@ -15,12 +16,13 @@ def build_dynamic_relation_model(mention_strings: List[str],
     else:
         head_type = Optional[str]
         tail_type = Optional[str]
-
+    relation_literals = Literal[tuple(relation_types)]
     DynamicRelation = create_model(
         "DynamicRelation",
-        head=(head_type, Field(None, description="Mentioned entity (head).")),
-        tail=(tail_type, Field(None, description="Mentioned entity (tail).")),
-        relation_type=(relation_types, Field(..., description="Description of the relation between head and tail.")),
+        __base__=BaseRelation,
+        subject=(head_type, Field(..., description="Mentioned entity (head).")),
+        object=(tail_type, Field(..., description="Mentioned entity (tail).")),
+        predicate=(relation_literals, Field(..., description="Description of the relation between head and tail.")),
     )
 
     return DynamicRelation

@@ -1,18 +1,25 @@
 import re
 import json
 import time
+import builtins
 
+from pydantic import BaseModel, Field
+from typing import Callable, Awaitable, Sequence, TypeVar, Optional, List , Type
+from src.models import AgentName, Dependency, BaseDoc, BaseDocUnit
+T = TypeVar("T")
+
+import asyncio
+import anyio
+from typing import Callable, Awaitable, Sequence, TypeVar, Optional
+
+
+def extract_python_code_block(text: str) -> str:
+    match = re.search(r"```python\s*([\s\S]+?)\s*```", text)
+    if not match:
+        raise ValueError("No valid ```python code block``` found in LLM output.")
+    return match.group(1).strip()
 
 def extract_json_from_markdown(markdown_string):
-    """Extracts JSON from a Markdown string.
-
-    Args:
-        markdown_string: The Markdown string containing JSON.
-
-    Returns:
-        A Python dictionary or None if no JSON is found.
-    """
-    # Regular expression to find JSON within code blocks
     match = re.search(r'```(?:json)?\s*([\s\S]*?)\s*```', markdown_string)
     if match:
         json_string = match.group(1).strip()
@@ -22,26 +29,6 @@ def extract_json_from_markdown(markdown_string):
             print("Invalid JSON found.")
             return e
     return None
-
-from typing import TypeVar
-from typing import Sequence, Callable, Awaitable
-
-from pydantic_ai.usage import Usage
-from tqdm import tqdm
-
-import anyio
-
-
-import anyio
-from typing import Callable, Awaitable, Sequence, TypeVar, Optional
-
-T = TypeVar("T")
-
-import asyncio
-import anyio
-from typing import Callable, Awaitable, Sequence, TypeVar, Optional
-
-T = TypeVar("T")
 
 async def task_group_gather(tasks: Sequence[Callable[[], Awaitable[T]]],
                             timeout_seconds: 120) -> list[Optional[T]]:
@@ -67,3 +54,29 @@ async def task_group_gather(tasks: Sequence[Callable[[], Awaitable[T]]],
 
     return results
 
+
+def load_extended_models(code: str) -> tuple[Type[BaseModel], Type[BaseModel]]:
+    safe_globals = {
+        "BaseDocUnit": BaseDocUnit,
+        "BaseDoc": BaseDoc,
+        "Field": Field,
+        "BaseModel": BaseModel,
+        "Optional": Optional,
+        "List": List,
+        "__builtins__": builtins.__dict__,
+    }
+
+    local_env = {}
+    try:
+        exec(code, safe_globals, local_env)
+    except Exception as e:
+        raise RuntimeError(f"Error while executing LLM-generated code:\n{e}")
+
+    # Extract the two classes
+    ExtendedDocUnit = local_env.get("ExtendedDocUnit")
+    ExtendedDoc = local_env.get("ExtendedDoc")
+
+    if not ExtendedDocUnit or not ExtendedDoc:
+        raise ValueError("Missing ExtendedDocUnit or ExtendedDoc in output.")
+
+    return ExtendedDocUnit, ExtendedDoc

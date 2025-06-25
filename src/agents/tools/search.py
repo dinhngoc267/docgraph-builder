@@ -6,6 +6,8 @@ async def search(
         query: str
 ):
     with DDGS() as ddgs:
-        results = ddgs.text(query)
-        return results
-
+        try:
+            results = ddgs.text(query)
+            return results
+        except Exception as e:
+            return "No results found"

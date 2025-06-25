@@ -18,13 +18,5 @@ def create_mention_detection_agent(mention_model, entity_types) -> Agent:
         retries=5,
     )
 
-    # @agent.output_validator
-    # async def validate_schema(_: RunContext, output: List) -> str:
-    #     if len(output) > 0:
-    #         return output
-    #     else:
-    #         raise ModelRetry(f"Output shouldn't be empty list")
-        # except Exception as e:
-        #     raise ModelRetry(f"Invalid json schema: {e}")
 
     return agent
