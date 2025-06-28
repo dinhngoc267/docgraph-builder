@@ -70,6 +70,9 @@ class OntologyInitNode(BaseNode):
                                    domain_ontology=ontology_result.output,
                                    schema_output_path="/home/ju/PycharmProjects/automated-docgraph-construction/src/models/extended_doc_schema.json")
 
+
+
+
 #         print("""Could you tell me more about the data?
 # What is it used for, and what are you planning to use it for?
 #

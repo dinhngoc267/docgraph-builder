@@ -34,13 +34,18 @@ def create_relation_extraction_agent(
 
         for item in list_relations:
             try:
-                subject_type = BaseMention.from_string(item.subject).entity_type
-                object_type = BaseMention.from_string(item.object).entity_type
+                subject = BaseMention.from_string(item.subject)
+                subject_type = subject.entity_type
+                object_ = BaseMention.from_string(item.object)
+                object_type = object_.entity_type
                 predicate = item.predicate
 
                 if not ctx.deps.is_valid_relationship(subject_type, object_type, predicate):
                     raise ModelRetry(
                         f"Triplet {subject_type}-{predicate}->{object_type} is not a valid relationship type!")
+                item.subject = subject.text
+                item.object = object_.text
+
             except Exception as e:
                 raise ModelRetry(f"{e}")
 

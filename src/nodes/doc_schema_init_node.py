@@ -62,7 +62,7 @@ class DocSchemaDesignNode(BaseNode):
             )
 
             python_schema = extract_python_code_block(schema_design_result.output)
-            ExtendedDocUnit, ExtendedDoc = load_extended_models(python_schema)
+            ExtendedDoc, ExtendedDocUnit = load_extended_models(python_schema)
             # Step 2.b Save the model into .json files.
             self.save_schema_output(python_schema)
 
@@ -87,4 +87,6 @@ class DocSchemaDesignNode(BaseNode):
 
         ExtendedDoc: BaseDoc = ExtendedDoc
 
-        return InformationExtractionNode(data_dir=self.data_dir, domain_ontology=self.domain_ontology, doc_schema=ExtendedDoc)
+        return InformationExtractionNode(data_dir=self.data_dir,
+                                         domain_ontology=self.domain_ontology,
+                                         doc_schema=ExtendedDoc)

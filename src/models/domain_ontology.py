@@ -1,16 +1,27 @@
 import re
 
 from pydantic import BaseModel, Field, model_validator
-from typing import List
+from typing import List, Optional, Any
+
+from src.models.ontology_entity import OntologyEntity
 
 
 class EntityType(BaseModel):
     name: str = Field(..., description="The label or identifier for this entity type.")
     description: str = Field(..., description="A brief explanation of what this entity type represents.")
 
-class BaseMention(BaseModel):
+class BaseMention(OntologyEntity):
+    id: Optional[str] = Field(None, description="The entity identifier.")
+
     entity_type: str
     text: str = Field(..., description="Mention string appears in the passage")
+    summary: Optional[str] = Field(None, description="Summary description of the instance.")
+
+    def model_post_init(self, context: Any, /) -> None:
+        self.summary = self.text
+
+    def node_label(self) -> str:
+        return "Mention"
 
     def __str__(self):
         return f"<{self.entity_type}>{self.text}</{self.entity_type}>"
@@ -26,7 +37,6 @@ class BaseMention(BaseModel):
 class TypePair(BaseModel):
     subject_type: str = Field(..., description="Entity type name acting as subject.")
     object_type: str = Field(..., description="Entity type name acting as object.")
-
 
 class RelationshipType(BaseModel):
     name: str = Field(..., description="The name of the relationship type.")

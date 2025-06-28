@@ -24,6 +24,15 @@ from src.models import (
 )
 from src._utils import task_group_gather
 
+from .graph_enhancement_node import GraphEnhancementNode
+from itertools import count
+#
+# class IDGenerator:
+#     def __init__(self,start: int = 1):
+#         self._counter = count(start)
+#
+#     def next_id(self, node_label:str) -> str:
+#         return f"{node_label}{str(next(self._counter)).zfill(4)}"
 
 # @dataclass(init=False)
 class InformationExtractionNode(BaseNode[None, Dependency, None]):
@@ -34,6 +43,8 @@ class InformationExtractionNode(BaseNode[None, Dependency, None]):
                  doc_schema: BaseDoc,
                  **kwargs):
         super().__init__(**kwargs)
+
+        # self.id_generator = IDGenerator()
 
         self.domain_ontology = domain_ontology
         self.doc_model = doc_schema
@@ -65,8 +76,11 @@ class InformationExtractionNode(BaseNode[None, Dependency, None]):
 
         doc_result = doc_result[0]
         doc: BaseDoc = doc_result.output
+        # doc.id = self.id_generator.next_id(doc.node_label())
 
         doc_units: List[BaseDocUnit] = doc.units
+        # for doc_unit in doc_units:
+        #     doc_unit.id = self.id_generator.next_id(doc_unit.node_label())
 
         mentions_result = await task_group_gather(
             [
@@ -122,25 +136,29 @@ class InformationExtractionNode(BaseNode[None, Dependency, None]):
 
         doc.units = doc_units
 
-        with open(output_path, "w") as f:
-            json.dump(doc.dict(), f, indent=2)
+        # with open(output_path, "w") as f:
+        #     json.dump(doc.model_dump(), f, indent=2)
 
-    async def run(self, ctx: GraphRunContext[None, Dependency]) -> End:
+        return doc
 
-        files = glob.glob("/home/ju/PycharmProjects/automated-docgraph-construction/data/cord-19/articles/*.txt")
+    async def run(self, ctx: GraphRunContext[None, Dependency]) -> GraphEnhancementNode:
+
+        files = glob.glob("/home/ju/PycharmProjects/automated-docgraph-construction/data/cord-19/articles/*.txt")[:20]
 
         args = []
         for file in tqdm(files):
             with open(file, "r") as f:
-                basename = os.path.basename(file)
+                basename = os.path.basename(file).replace(".txt", "")
                 sample_data = f.read()
                 output_path = f"data/processed/{basename}.json"
 
                 args.append([sample_data, output_path])
 
         bs = 10
+
+        list_docs = []
         for i in range(0, len(args), bs):
-            _ = await task_group_gather(
+            result = await task_group_gather(
                 [
                     (lambda sample_data=sample_data, output_path=output_path: self.run_task(
                         ctx=ctx,
@@ -150,5 +168,7 @@ class InformationExtractionNode(BaseNode[None, Dependency, None]):
                 ],
                 timeout_seconds=120,
             )
+            list_docs.extend(result)
 
-        return End(None)
+
+        return GraphEnhancementNode(list_docs=list_docs)

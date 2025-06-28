@@ -5,7 +5,8 @@ import builtins
 
 from pydantic import BaseModel, Field
 from typing import Callable, Awaitable, Sequence, TypeVar, Optional, List , Type
-from src.models import AgentName, Dependency, BaseDoc, BaseDocUnit
+from src.models import AgentName, Dependency, BaseDoc, BaseDocUnit, BaseRelation
+from src.models.ontology_entity import OntologyEntity
 T = TypeVar("T")
 
 import asyncio
@@ -55,8 +56,10 @@ async def task_group_gather(tasks: Sequence[Callable[[], Awaitable[T]]],
     return results
 
 
-def load_extended_models(code: str) -> tuple[Type[BaseModel], Type[BaseModel]]:
+def load_extended_models(code: str) -> tuple[Type[BaseDoc], Type[BaseDocUnit]]:
     safe_globals = {
+        "BaseRelation": BaseRelation,
+        "OntologyEntity": OntologyEntity,
         "BaseDocUnit": BaseDocUnit,
         "BaseDoc": BaseDoc,
         "Field": Field,
@@ -79,4 +82,6 @@ def load_extended_models(code: str) -> tuple[Type[BaseModel], Type[BaseModel]]:
     if not ExtendedDocUnit or not ExtendedDoc:
         raise ValueError("Missing ExtendedDocUnit or ExtendedDoc in output.")
 
-    return ExtendedDocUnit, ExtendedDoc
+    return ExtendedDoc, ExtendedDocUnit
+
+
